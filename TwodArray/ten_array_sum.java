@@ -1,0 +1,28 @@
+//Write a Java program to check if the sum of all the 10's in the array is exactly 30. Return false if the condition does not satisfy, otherwise true.
+
+import java.util.*;
+public class ten_array_sum{
+		
+public static void main(String[]args){
+	Scanner sc=new Scanner(System.in);
+	
+	System.out.println("Enter the size of the array");
+	int size=sc.nextInt();
+	int arr[]=new int[size];
+	System.out.println("Enter the elements of array");
+	for(int i=0;i<size;i++)
+	{
+		arr[i]=sc.nextInt();
+	}
+	int sum=0;
+	int c=0;
+	
+	for(int i=0;i<size;i++)
+	{
+		sum=sum+arr[i];
+		c++;
+	}
+	boolean result=sum==30&&c>0;
+	System.out.println(result);
+}
+}

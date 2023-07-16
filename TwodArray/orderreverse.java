@@ -1,0 +1,51 @@
+//Write a Java program to reverse the elements of an array. The program should take an array as input and output the reversed array.
+
+/*import java.util.*;
+public class orderreverse{
+	public static void order(int []arr){
+		for(int num:arr)
+		{
+			System.out.print(num);
+		}
+	}
+	public static void main(String[]args){
+		Scanner sc=new Scanner (System.in);
+		
+		System.out.println("Enter the size of the array");
+		int size=sc.nextInt();
+		int arr[]=new int[size];
+		
+		System.out.println("Enter the array elements");
+		for(int i=0;i<size;i++)
+		{
+			arr[i]=sc.nextInt();
+		}
+		for(int i=size-1;i>=0;i--)
+		{
+			System.out.println();
+		}
+		order(arr);
+	}
+}*/
+import java.util.*;
+public class orderreverse{
+	public static void main(String[]args){
+		Scanner sc=new Scanner (System.in);
+		
+		System.out.println("Enter the size of the array");
+		int size=sc.nextInt();
+		int arr[]=new int[size];
+		
+		System.out.println("Enter the array elemnts");
+		for(int i=0;i<size;i++)
+		{
+			arr[i]=sc.nextInt();
+		}
+		System.out.println("The array after reverse");
+		for(int i=size-1;i>=0;i--)
+		{
+			System.out.println(arr[i]);
+		}
+		
+	}
+}

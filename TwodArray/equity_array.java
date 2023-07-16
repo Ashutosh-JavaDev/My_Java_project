@@ -1,0 +1,40 @@
+//Write a Java program to test two arrays' equality.
+
+import java.util.*;
+public class equity_array{
+	public static void main(String[]args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the size of the array");
+		int size=sc.nextInt();
+		int arr1[]=new int [size];
+		int arr2[]=new int [size];
+		int c=0;
+		int p=0;
+		System.out.println("Enter the array elements 1");
+		for(int i=0;i<size;i++)
+		{
+			System.out.println("Array [ " +i+ "]");
+			arr1[i]=sc.nextInt();
+		}
+		System.out.println("Enter the array elements 2");
+		for(int i=0;i<size;i++)
+		{
+			System.out.println("Array [ " +i+ "]");
+			arr2[i]=sc.nextInt();
+		}
+		 boolean equal = true;
+        for (int i = 0; i < size; i++) {
+            if (arr1[i] != arr2[i]) {
+                equal = false;
+                break;
+            }
+        }
+        
+        if (equal) {
+            System.out.println("Both arrays are equal.");
+        } else {
+            System.out.println("Arrays are not equal.");
+        }
+		
+		}
+}

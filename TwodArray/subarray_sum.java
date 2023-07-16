@@ -1,0 +1,28 @@
+//sum of subarray is 0
+
+import java.util.*;
+public class subarray_sum{
+	public static void main(String[]args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the size of the array");
+		int size=sc.nextInt();
+		int arr[]=new int [size];
+		System.out.println("Enter trhe array elements");
+		for(int i=0;i<size;i++)
+		{
+			arr[i]=sc.nextInt();
+		}
+		int sum=0;
+		for(int i=0;i<size;i++)
+		{
+			for(int j=i;j<size;j++)
+			{
+				sum=sum+arr[j];
+				if(sum==0)
+				{
+					System.out.println(arr[j]);
+				}
+			}
+		}
+	}
+}

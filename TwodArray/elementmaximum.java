@@ -1,0 +1,52 @@
+//Write a Java program to find the maximum element in an array of integers. The program should take an array as input and output the maximum element present in the array.
+import java.util.*;
+public class elementmaximum{
+	public static void main(String[]args){
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter the size of the array");
+		int size=sc.nextInt();
+		int[] arr=new int[size];
+		
+		System.out.println("Enter the array elements");
+		for(int i=0;i<size;i++)
+		{
+			arr[i]=sc.nextInt();
+		}
+		for(int i=0;i<size;i++)
+		{
+			for(int j=0;j<size-i-1;j++)
+			{
+				if(arr[j]>arr[j+1])
+				{
+					int temp=arr[j];
+					arr[j]=arr[j+1];
+					arr[j+1]=temp;
+				}
+			}
+		}
+		int max=arr[0];
+		int c=0;
+		System.out.println("Array after sorting");
+		for(int i=0;i<size;i++)
+		{
+			System.out.print(arr[i]+" ");
+		}
+		System.out.println();
+		int index=arr[0];
+		for(int i=0;i<size;i++)
+		{
+			if(arr[i]>max)
+			{
+				max=arr[i];
+				index=i;
+				c++;
+			}
+			
+		}
+		System.out.println(c+ " :position");
+		System.out.println("Maximun number is: " +max);
+	
+		
+	}
+}

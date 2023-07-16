@@ -1,0 +1,44 @@
+//Write a Java program to find the number of even and odd integers in a given array of integers.
+
+import java.util.*;
+public class odd_even{
+public static void main(String[]args){
+	Scanner sc=new Scanner(System.in);
+	
+	System.out.println("Enter the size of the array");
+	int size=sc.nextInt();
+	int arr[]=new int[size];
+	System.out.println("Enter the elements in array");
+	for(int i=0;i<size;i++)
+	{
+		arr[i]=sc.nextInt();
+	}
+	int e=0;
+	int o=0;
+	int c=0;
+	int p=0;
+	System.out.println("The total even number are :");
+	for(int i=0;i<size;i++)
+	{
+		if(arr[i]%2==0){
+			e=arr[i];
+			System.out.println(e);
+			c++;
+		}
+	}
+	System.out.println("The odd number are :"); 
+	for(int i=0;i<size;i++)
+	{
+		if(arr[i]%2!=0)
+			{
+				o=arr[i];
+				System.out.println(o);
+				p++;
+			}
+	}
+	System.out.println("And the total counting value of even number are : "+c);
+	
+	System.out.println("The counting value of odd number is : "+p); 
+	
+}
+}
