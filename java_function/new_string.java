@@ -1,18 +1,23 @@
 package  java_function;
 import java.util.*;
 public class new_string {
-    // Function to calculate the length of the string
-
- public static  int  length(String n){
-    return n.length();    
- }
- public static void main(String[] args) {
-    Scanner sc=new Scanner(System.in);
-    System.out.println("Enter the String");
+   public static String replace(String n) {
+      Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the string want to replace");
     String a=sc.nextLine();
-    int le=length(a);
-    System.out.println("The length is :"+le);
- }
- 
+    System.out.println("Enter the string with the string want to replace");
+    String b=sc.nextLine();
+    String re=n.replace(a,b);
+    return re;
+      
+   }
+   public static void main(String[] args) {
+      Scanner sc=new  Scanner(System.in);
 
+      System.out.println("Enter the string");
+      String c=sc.nextLine();
+      String fe=replace(c);
+    System.out.println("The string after replace is  : "+fe);
+
+   }
 }
