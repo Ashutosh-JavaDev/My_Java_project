@@ -6,7 +6,7 @@ public class string{
     
     // Function to calculate the length of the string
     public static int  length(String str) {
-        return str.length();
+       
     }
     
     // Function to convert the string to lowercase
