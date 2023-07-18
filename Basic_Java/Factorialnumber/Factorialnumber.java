@@ -1,0 +1,24 @@
+//WAP to print factorial of given number 
+
+import java.util.*;
+
+public class Factorialnumber{
+	
+	public static void main(String[] args){
+		
+		int i,n,mul=1;
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("enter the value till find factorial ");
+		n=sc.nextInt();
+		
+		sc.close();
+		
+		for(i=n;i>1;i--)
+			mul=mul*i;
+		{
+			System.out.println("the output is : "+mul);
+		}
+	}
+}

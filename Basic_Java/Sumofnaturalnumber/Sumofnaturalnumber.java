@@ -1,0 +1,26 @@
+//WAP to print sum of natural number
+
+import java.util.*;
+
+public class Sumofnaturalnumber{
+	
+	public static void main(String[] args){
+		
+		int i,n,sum=0;
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("enter the value till number want to print ");
+		n=sc.nextInt();
+		
+		sc.close();
+		
+		for(i=1;i<=n;i++)
+			
+		
+		sum=sum+i;
+		{
+			System.out.println("the sum of given value is : "+sum);
+		}
+	}
+}

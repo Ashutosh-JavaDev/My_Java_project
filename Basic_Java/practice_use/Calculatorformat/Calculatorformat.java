@@ -1,0 +1,36 @@
+/*Make a Calculator. Take 2 numbers (a & b) from the user and an operation as follows : 
+	1 : + (Addition) a + b
+2 : - (Subtraction) a - b
+3 : * (Multiplication) a * b
+4 : / (Division) a / b
+5 : % (Modulo or remainder) a % b
+*/
+import java.util.*;
+
+public class Calculatorformat{
+	public static void main(String[]args){
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("enter the value of first number");
+		int a =sc. nextInt();
+		System.out.println("enter the value of second number");
+		int b=sc.nextInt();
+		
+		int sum=a+b;{
+		System.out.println("addition:"+sum);
+		}
+		int sub = a-b;
+		{System.out.println("subtraction:"+sub);
+		}
+		int mul =a*b;
+		{System.out.println("multipication:"+mul);
+		}
+		int divide = a/b;
+		{System.out.println("division quotient:"+divide);
+		}
+		int div=a%b;
+		{System.out.println("division reminder:"+divide);
+		}
+		
+	}
+}

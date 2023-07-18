@@ -1,0 +1,44 @@
+/*WAP to print number is grearter,smaller or equal*/
+
+import java.util.*;
+
+public class Comparisionofnumber{
+	public static void main(String[]args){
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("enter the value of first number");
+		int a=sc.nextInt();
+		System.out.println("enter the value of second number");
+		int b=sc.nextInt();
+		int c=sc.nextInt();
+		int d=sc.nextInt();
+		int e=sc.nextInt();
+		
+		if(a==b&&b==c&&c==d&&d==e){
+		System.out.println("all are equals");
+		}
+		else if(a>b&&b>c&&c>d&&d>e)
+		{System.out.println("a is greater");
+		}
+		else if(b>a&&a>c&&c>d&&d>e)
+		{
+			System.out.println("b is greater");
+		}
+		else if(c>a&&a>b&&b>d&&d>e)
+		{
+			System.out.println("c is greater");
+		}
+		else if(d>a&&a>c&&c>b&&b>e)
+		{
+			System.out.println("d is greater");
+			
+		}
+		else{
+			System.out.println("e is greater");
+		}
+		
+	}
+}
+			
+			

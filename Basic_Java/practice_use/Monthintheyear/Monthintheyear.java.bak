@@ -1,0 +1,49 @@
+/*Ask the user to enter the number of the month & print the name of the month. For eg - For ‘1’ print ‘January’, ‘2’ print ‘February’ & so on*/
+
+import java.util.*;
+
+public class Monthintheyear{
+	public static void main(String[]args){
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("enter month number");
+		char month = sc.nextChar();
+		
+		switch(month){
+		case a:System.out.println("jan");
+		break;
+		case b:System.out.println("feb");
+		break;
+		case c:System.out.println("mar");
+		break;
+		case d:System.out.println("apr");
+		break;
+		case e:System.out.println("may");
+		break;
+		case f:System.out.println("jun");
+		break;
+		case g:System.out.println("jul");
+		break;
+		case h:System.out.println("aug");
+		break;
+		case i:System.out.println("sep");
+		break;
+		case j:System.out.println("oct");
+		break;
+		case k:System.out.println("nov");
+		break;
+		case l:System.out.println("dec");
+		break;
+		default:System.out.println("invaild month");
+		}
+	}
+}
+
+	
+	
+		
+		
+		
+	
+
+

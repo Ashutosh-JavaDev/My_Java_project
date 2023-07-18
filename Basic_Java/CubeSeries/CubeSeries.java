@@ -1,0 +1,22 @@
+//WAP to print cube of given series
+
+import java.util.*;
+
+public class CubeSeries{
+	public static void main(String[] args){
+		
+		int i,n,cube;
+		Scanner sc=new Scanner (System.in);
+		
+		System.out.println("enter the length for the cube series ");
+		n=sc.nextInt();
+		
+		sc.close();
+		
+		for(i=1;i<=n;i++)
+		{
+			cube=i*i*i;
+			System.out.println("the cube of given series is :"+cube);
+		}
+	}
+}

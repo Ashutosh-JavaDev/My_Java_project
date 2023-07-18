@@ -1,0 +1,25 @@
+//wAP to print natural number
+
+import java.util.*;
+
+public class naturalnumber{
+	
+	public static void main(String[] args){
+		
+		int num,i;
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("enter the value  of number want to print ");
+		num=sc.nextInt();
+		
+		sc.close();
+		
+		for(i=1;i<=num;i++)
+			
+			{
+				System.out.println(i);
+			}
+			
+	}
+}
