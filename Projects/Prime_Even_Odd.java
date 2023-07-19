@@ -1,4 +1,5 @@
 //print the prime, even and odd number from the array
+//package Projects;
 import  java.util.*;
 public class  Prime_Even_Odd{
 	public static void check_number(int arr[], int n){
