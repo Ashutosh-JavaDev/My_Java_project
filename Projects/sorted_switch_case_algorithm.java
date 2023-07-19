@@ -1,11 +1,8 @@
-/*User Interaction: Using a switch case, the program will provide the following options:
-a. "1" - Sort the array in ascending order using the Bubble Sort algorithm.
-b. "2" - Sort the array in descending order using the Bubble Sort algorithm.
-c. "3" - Display the original unsorted array.
-d. "4" - Exit the program.*/
 import java.util.*;
 
 public class sorted_switch_case_algorithm {
+
+    // Function to perform Bubble Sort on the given array in ascending or descending order
     public static void bubbleSort(int[] arr, int n) {
         Scanner sc = new Scanner(System.in);
         System.out.println("\nEnter the array elements:");
@@ -13,6 +10,7 @@ public class sorted_switch_case_algorithm {
             arr[i] = sc.nextInt();
         }
         
+        // User interaction to choose the sorting order
         System.out.println("Press 1: Sort the array in ascending order");
         System.out.println("Press 2: Sort the array in descending order");
         System.out.println("Press 3: Display the original unsorted array");
@@ -21,6 +19,7 @@ public class sorted_switch_case_algorithm {
 
         switch (option) {
             case 1:
+                // Bubble Sort in ascending order
                 for (int i = 0; i < n - 1; i++) {
                     for (int j = 0; j < n - 1 - i; j++) {
                         if (arr[j] > arr[j + 1]) {
@@ -35,6 +34,7 @@ public class sorted_switch_case_algorithm {
                 break;
 
             case 2:
+                // Bubble Sort in descending order
                 for (int i = 0; i < n - 1; i++) {
                     for (int j = 0; j < n - 1 - i; j++) {
                         if (arr[j] < arr[j + 1]) {
@@ -61,6 +61,7 @@ public class sorted_switch_case_algorithm {
                 return;
         }
 
+        // Display the sorted or unsorted array
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
