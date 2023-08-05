@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class shape_formula {
+public class All_Basic_Shape_Formula {
     // Method to calculate the area and perimeter of a rectangle
     public static void perimeterLengthRectangle(float length, float breadth) {
         Scanner scanner = new Scanner(System.in);
