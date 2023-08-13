@@ -9,11 +9,10 @@ public class palindrome{
 		palindromecheck(str);
 	}
 	public static void palindromecheck(String str){
-		int rev=0;
 		String st="";
 		char ch[]=str.toCharArray();
 		for(int i=str.length()-1;i>=0;i--){
-			st=st+ch[i];
+			st+=ch[i];
 		}
 		System.out.print(st+" ");
 		if(str.equals(st)){
