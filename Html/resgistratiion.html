@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <!-- collecting the basic information of the user -->
+        <legend><h3>Registration Form</h3> </legend>
+        <label for="Firstname">FirstName:</label>
+            <input type="text" name="FirstName" id="FirstName" placeholder="Enter your first name">
+            <br>
+            <br>
+            <label for="LastName">LastName:</label>
+            <input type="text"name="LastName" id="Lastname" placeholder="Enter your Last name">
+            <br>
+            <br>
+            <label for="Moblie">Mobile No.:</label>
+            <input type="text" name="Mobile" id="Mobile" placeholder="Enter your contact Number">
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Create your password">
+            <br>
+            <br>
+            <label for="DOB">Choose Your Date of Birth</label>
+            <input type="date" name="DOB" id="DOB">
+            <br>
+            <br>
+            <!-- asking for the submission for the documents -->
+            <legend>Documents</legend>
+            <fieldset>
+                <label for="Upload">Upload Documents:</label>
+                <select name="Documents" id="Upload">
+                    <option value="Document">--Choose Documents--</option>
+                    <option value="Aadhar">Aadhar</option>
+                    <option value="Matric">Matric</option>
+                    <option value="Inter">Inter</option>
+                    <option value="EWS">EWS</option>
+                </select>
+                <br><br>
+                <label for="Aad">Upload Aadhar:</label>
+                <input type="file" name="Aadhar" id="Aad" accept=".pdf, .doc, .docx">
+                <br><br>
+                <label for="Mat">Upload Matric:</label>
+                <input type="file" name="Matric" id="Mat" accept=".pdf, .doc, .docx">
+                <br><br>
+                <label for="inter">Upload Inter:</label>
+                <input type="file" name="inter" id="inter" accept=".pdf, .doc, .docx">
+                <br><br>
+                <label for="EWS">Upload EWS:</label>
+                <input type="file" name="EWS" id="EWS" accept=".pdf, .doc, .docx">
+            </fieldset>
+            <!-- Choosing the language for  exam -->
+    <legend>Choose Language for Exam:
+        <fieldset>
+        <label for="language">English:</label>
+        <input type="checkbox" name="language" id="language">
+        <br>
+        <label for="Hindi">Hindi:</label>
+        <input type="checkbox" name="Hindi" id="Hindi">
+    </fieldset>
+    </legend> 
+    <!-- Asking for select the Gender -->
+    <legend>Choose Your Gender:</legend>
+    <fieldset>
+        <label for="male">Male</label>
+        <input type="radio" name="male" id="male">
+        <label for="female">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Female</label>
+        <input type="radio" name="female" id="female">
+        <label for="others">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Others</label>
+        <input type="radio" name="Others" id="others">
+    </fieldset>
+    <br>
+    <!-- The submit button -->
+        <button>Submit</button>  
+    </fieldset>
+</form>
+</body>
+</html>

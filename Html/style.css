@@ -1,0 +1,13 @@
+body{
+    background-color: lightblue;
+}
+#heading{
+    text-align: center;
+    text-shadow: 0cap;
+}
+.table{
+    text-align:unset;
+}
+#ok{
+    text-align:center;
+}

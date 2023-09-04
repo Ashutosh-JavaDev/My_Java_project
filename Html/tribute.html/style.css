@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#e5e5fd;  
+}
+
+.apj img{
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.container{
+    margin-left: 35%;
+    margin-top: 3%;
+    
+  
+}
+h1{
+    text-transform: uppercase;
+    color: #1e1f4c;
+    font-size:xx-large;
+  
+
+}
+#TRIBUTE{
+    color: black;
+    margin-bottom: 5%;
+    margin-top: -4%;
+    margin-left:-55%;
+    text-align: center;
+    font-size: 50px;
+    text-transform: none;
+}
+.heading h1,h4{
+    margin-left: 15%;
+    margin-top:-5%;
+    font-size: 40px;
+}
+h4{
+    margin-left: 35%;
+    margin-top: 1%;
+    font-size:25px;
+}
+#bio{
+    text-align:justify;
+    font-size: 17px;
+    margin-top:1%;
+    width:70%;
+    color: #000000;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.missle{
+    font-size: 30px;
+    margin-top: 2%;
+    font-family: 'Times New Roman';
+}
+article{
+    display: block;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    margin-bottom:4%;
+}
+h5{
+    font-size: 15px;
+}
+ul{
+    margin-top:10px;
+    line-height: 30px;
+}
+footer{
+    font-size: 25px;
+    margin-top: 1%;
+    margin-left: 25%;
+}

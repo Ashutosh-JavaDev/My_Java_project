@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form>
+        <label for="Name">Name:</label><br>
+        <input type="text" name="Name" id="Name">
+        <br>
+        <label for="Email">Email:</label><br>
+        <input type="email" name="Email" id="Email">
+        <br>
+        <label for="Phone">Phone No.:</label><br>
+        <input type="tel" name="phone" id="phone">
+        <br>
+        <label for="resume">Resume:</label><br>
+        <input type="file" name="Resume" id="Resume">
+        <br><br>
+        <label for="experience">Experience (Years)</label><br>
+        <input type="number" name="experience" id="experience" min="0" max="50" placeholder="Exp">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Skills:</legend>
+            <label for="Html">HTML</label><br>
+            <input type="checkbox" name="Html" id="Html">
+            <br>
+            <label for="CSS">CSS</label><br>
+            <input type="checkbox" name="CSS" id="CSS"><br>
+            <label for="js">Javascript</label><br>
+            <input type="checkbox" name="js" id="js">
+            <br>
+        </fieldset>
+        <label for="education">Highest Education</label>
+        <select name="Education" id="education">
+            <option value="Matric">Matric</option>
+            <option value="Inter">Intermediate</option>
+            <option value="UnderGraduate">UnderGraduate</option>
+            <option value="PostGraduate">PostGraduate</option>
+            <option value="diploma">Diploma</option>
+        </select>
+        <br><br>
+        <fieldset>
+            <legend>Availability:</legend>
+            <label for="Part-Time">Part-Time</label>
+            <input type="radio" name="Availability" id="Part-Time"><br>
+            <label for="Full-Time">Full-Time</label>
+            <input type="radio" name="Availability" id="Full-Time"><br>
+        </fieldset>
+        
+       <br>
+       <label for="comment">Additional Comments:</label><br>
+        <textarea name="comment" id="comment" cols="50" rows="3"></textarea>
+        <button>Submit Application</button>
+    </form>
+</body>
+</html>
