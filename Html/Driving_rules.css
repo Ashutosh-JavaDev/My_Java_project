@@ -1,0 +1,134 @@
+*{
+    /* background-image: url('Leonardo_Diffusion_esign_a_techthemed_meme_that_will_make_prog_2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;  */
+    background-color: rgba(231, 228, 193, 0.827);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.driving_img td h1{
+    width: 800px;
+
+}
+table#parent{
+    margin-top: 15px;
+}
+ul {
+    list-style-type: none;
+}
+ #smoke{
+    /* margin-right: 1650px; */
+      border: solid 20px black;
+    margin-left:1%;
+    position: fixed;    
+    margin-top:-6%;
+    width: 300px;
+    height:250px;
+   
+}
+
+#driving { 
+    border: solid 5px black;
+    margin-left:20px;
+    margin-top: 50px;
+    height: 400px;
+    width: 700px;
+}
+#heading h1{
+    background-color: rgba(255, 0, 0, 0.5);
+    margin-top: -2%;
+    margin-left: 15%;
+    font-size: xxx-large;
+    text-align:center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* border: solid red; */
+}
+ article{
+ 
+    font-size: medium;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table #important tr{
+    
+    text-align: center;
+    height: 50px;
+   
+}
+table td#heading table#important tr td table tr td ul{
+    margin-left: 10px;
+    height: max-content;
+    text-align: left;
+}
+table td#heading table#important tr td ul{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 12px;
+}
+table td#heading table#important tr td table#innertable{
+    margin-left:15%;
+    margin-bottom: 10px;
+
+}
+main{
+    margin-top: 50px;
+    margin-left:50px;
+}
+main ul li{
+    margin:20px;
+    list-style-type:disc;
+}
+main ul article#secrule{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+.conclusion{
+    margin-bottom: 50px;
+    margin-left: 30%;
+   
+    
+}
+.conclusion td{
+    text-align:center;
+    
+}
+footer{
+    background-color:rgb(0, 0, 0) ;
+    margin-bottom: 10px;
+}
+footer img#ashu{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 50%;
+    margin-left:35%;
+}
+footer h2{
+    text-align: center;
+    font-size: xxx-large;    
+}
+footer table{
+    margin-left: 25%;
+    margin-bottom: 50px;
+    margin-right: 25%;
+    
+}
+footer section table tr{
+    font-size:x-large;
+    background-color: brown;
+}
+footer table tr td table{
+    margin-left: 42%;
+    margin-bottom:10px;
+}
+footer section table tr td#bio {
+    font-size: x-large;
+    text-align:center;
+    background-color: aqua;
+}
