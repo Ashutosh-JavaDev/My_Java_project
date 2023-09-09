@@ -16,10 +16,18 @@
     margin-left:25%;
     width: 50%;
 }
-#heading h2{
+#heading h2 {
     text-align: center;
     font-size: xx-large;
-}
+    transform: scale(1.0); /* Start with a smaller size */
+    transition: transform 0.5s ease; /* Add a transition effect for smooth scaling */
+  }
+  
+  #heading h2:hover {
+    transform: scale(0.8); /* Enlarge the text on hover */
+  }
+  
+  
 #heading  li{
     list-style: none;
     float: left;
