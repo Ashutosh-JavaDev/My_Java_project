@@ -2,7 +2,7 @@ body{
     background-color:white;
 }
 #heading{
-   text-align: right;
+   text-align: left;
     text-shadow: 0cap;
 }
 .table{
@@ -10,7 +10,4 @@ body{
 }
 #ok{
     text-align:center;
-}
-.data{
-    margin: 20%;
 }
