@@ -1,8 +1,8 @@
 body{
-    background-color: lightblue;
+    background-color:white;
 }
 #heading{
-    text-align: center;
+   text-align: right;
     text-shadow: 0cap;
 }
 .table{
@@ -10,4 +10,7 @@ body{
 }
 #ok{
     text-align:center;
+}
+.data{
+    margin: 20%;
 }
