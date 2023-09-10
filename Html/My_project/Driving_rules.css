@@ -21,15 +21,14 @@ ul {
 }
  #smoke{
     /* margin-right: 1650px; */
-      border: solid 20px black;
-    margin-left:1%;
-    position: fixed;    
+      border: solid black;
+    margin-left:55%;
+    /* position: fixed;     */
     margin-top:-6%;
-    width: 300px;
-    height:250px;
+    width: 320px;
+    height:270px;
    
 }
-
 #driving { 
     border: solid 5px black;
     margin-left:20px;
@@ -77,7 +76,8 @@ table td#heading table#important tr td table#innertable{
 }
 main{
     margin-top: 50px;
-    margin-left:50px;
+    margin-left:30%;
+
 }
 main ul li{
     margin:20px;
@@ -141,4 +141,13 @@ section#frame table tr td h3#youtube{
     font-size: x-large;
     background-color: yellow;
     
+}
+.description li{
+font-size: large;
+}
+#important h3{
+    font-size: x-large;
+}
+.link li a{ 
+    border: solid red;
 }

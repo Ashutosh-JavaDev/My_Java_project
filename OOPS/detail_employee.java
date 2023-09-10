@@ -35,7 +35,7 @@ public class detail_employee {
         String newName = sc.nextLine();
         input.setName(newName);
 
-        System.out.println("Name: " + input.getName());
+        System.out.println("Name: " + input.getName();
         System.out.println("Salary: " + input.getSalary());
         System.out.println("New Name: " + input.getName());
     }
