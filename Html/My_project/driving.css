@@ -1,268 +1,419 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    /* background-color: whitesmoke; */
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  /* background-color: whitesmoke; */
+  box-sizing: border-box;
 }
 /* body{
     background-color: aqua;
 } */
-
+/* Anchor List */
+.anchor1{
+    position: absolute;
+    padding: 10px;
+    margin-top: 10%; 
+}
+.anchor1 li {
+    padding: 5px;
+    margin: 2px;
+    list-style: none;
+    margin-left: -10px;
+    font-size:large;
+}
+.anchor1 li a{
+    text-decoration: none;
+}
+/* Anchor list 2 */
+.anchor2{
+    float: right;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 50px;
+}
+.anchor2 li{
+    padding: 5px;
+    margin: 2px;
+    margin-right: 5%;
+    list-style: none;
+    margin-left: -10px;
+    font-size:large;
+}
+.anchor2 li a{
+    margin-right: 20px;
+    text-decoration: none;
+}
 /* Navigation */
 .navbar {
-    margin-top: 10px;
-    background-color: black;
-    /* border: solid  yellow; */
-    overflow: auto;
+  margin-top: 10px;
+  background-color: black;
+  /* border: solid  yellow; */
+  overflow: auto;
 }
 
 .navbar ul {
-    /* border: solid red; */
-    list-style: none;
-    /* overflow: none; */
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    justify-content: center;
+  /* border: solid red; */
+  list-style: none;
+  /* overflow: none; */
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar li {
-    border-radius: 50%;
-    margin: 5px;
-    transition: transform 0.3s ease, background-color 0.8s ease;
+  border-radius: 50%;
+  margin: 5px;
+  transition: transform 0.3s ease, background-color 0.8s ease;
 }
 
 .navbar li a {
-    font-size: x-large;
-    margin: 0px; /* Specify the unit here */
-    padding: 2px 20px;
-    color: white;
-    text-shadow: 1px 4px 3px blue;
-    background-color: transparent; /* Remove background-color property */
-    text-decoration: none;
+  font-size: x-large;
+  margin: 0px; /* Specify the unit here */
+  padding: 2px 20px;
+  color: white;
+  text-shadow: 1px 4px 3px blue;
+  background-color: transparent; /* Remove background-color property */
+  text-decoration: none;
 }
 .navbar li:hover {
-    background-color: rgb(229, 70, 17);
-    transform: scale(1.1);
+  background-color: rgb(229, 70, 17);
+  transform: scale(1.1);
 }
 /* Project */
-.project{
-   animation-name: project;
-   animation-duration:10s;
-   animation-timing-function:linear;
-   animation-iteration-count: infinite;
-   animation-direction: alternate;
+.project {
+  animation-name: project;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 .project h5#project {
-    margin-top: 10px;
-    margin-left: 25%;
-    margin-bottom: 25px;
-    width: 8%;
-    text-align: center;
-    border-radius: 50%;
-    font-size: small;
-     transition: transform 3s ease, box-shadow 2s ease, background-color 1s ease, font-size 1s ease-in-out; 
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-bottom: 25px;
+  width: 8%;
+  text-align: center;
+  border-radius: 50%;
+  font-size: small;
+  transition: transform 3s ease, box-shadow 2s ease, background-color 1s ease,
+    font-size 1s ease-in-out;
 }
 
 @keyframes project {
-    from {
-       transform: translateX(0%);
-    }
-    to {
-            transform: translateX(50%);
-    }
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(50%);
+  }
 }
 
-.project h5#project:hover{
-    font-size: x-large;
-    transform: scale(1.1);
-    box-shadow: 10px 5px 2px;
-    background-color: yellow;
+.project h5#project:hover {
+  font-size: x-large;
+  transform: scale(1.1);
+  box-shadow: 10px 5px 2px;
+  background-color: yellow;
 }
 
 /* Container */
-.container{
-    margin-top: 20px;
-    margin-left:25px;
-    width: 55%;
-    border: solid red;
+.container {
+  margin-top: 20px;
+  margin-left:20%;
+  width: 55%;
+}
+.title h1 {
+  font-size: 40px;
+  text-align: center;
 }
 /* Introduction */
-.intro .heading1{
-    color: red;
-    margin-top: 5px;
+.intro .heading1 {
+  color: red;
+  font-size: 35px;
+  margin-top: 5px;
 }
 /* All Para */
-.intro .para{
-    font-size:large;
+.intro .para {
+  font-size: large;
 }
 /* para1 */
 .intro .para1 {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding: 10px;
-    transition: transform 3s ease-in-out, box-shadow 3s ease-in-out;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  transition: transform 3s ease-in-out, box-shadow 3s ease-in-out;
 }
 
 .intro .para1:hover {
-    transform: scale(0.9); /* Use scale to apply a zoom effect */
-    border: 2px solid red; /* Add a solid red border */
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a box shadow with transparency */
+  transform: scale(0.9); /* Use scale to apply a zoom effect */
+  border: 2px solid red; /* Add a solid red border */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a box shadow with transparency */
 }
 
 /* para 2 */
 .intro .para2 {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding: 10px;
-    transition: transform 3s ease-in-out, box-shadow 3s ease-in-out;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  transition: transform 3s ease-in-out, box-shadow 3s ease-in-out;
 }
 
 .intro .para2:hover {
-    transform: scale(0.9); /* Use scale to apply a zoom effect */
-    border: 2px solid black; /* Add a solid red border */
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a box shadow with transparency */
+  transform: scale(0.9); /* Use scale to apply a zoom effect */
+  border: 2px solid black; /* Add a solid red border */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a box shadow with transparency */
 }
 /* para 3 */
 .intro .para3 {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding: 10px;
-    transition: transform 3s ease-in-out, box-shadow 3s ease-in-out;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  transition: transform 3s ease-in-out, box-shadow 3s ease-in-out;
 }
 
 .intro .para3:hover {
-    transform: scale(0.9); /* Use scale to apply a zoom effect */
-    border: 2px solid yellow; /* Add a solid red border */
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a box shadow with transparency */
+  transform: scale(0.9); /* Use scale to apply a zoom effect */
+  border: 2px solid yellow; /* Add a solid red border */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a box shadow with transparency */
 }
 /* para 4 */
 .intro .para4 {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding: 10px;
-    transition: transform 3s ease-in-out, box-shadow 3s ease-in-out;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  transition: transform 3s ease-in-out, box-shadow 3s ease-in-out;
 }
 
 .intro .para4:hover {
-    transform: scale(0.9); /* Use scale to apply a zoom effect */
-    border: 2px solid red; /* Add a solid red border */
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a box shadow with transparency */
+  transform: scale(0.9); /* Use scale to apply a zoom effect */
+  border: 2px solid red; /* Add a solid red border */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a box shadow with transparency */
 }
 /* para  5 */
 .intro .para5 {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding: 10px;
-    transition: transform 3s ease-in-out, box-shadow 3s ease-in-out;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  transition: transform 3s ease-in-out, box-shadow 3s ease-in-out;
 }
 
 .intro .para5:hover {
-    transform: scale(0.9); /* Use scale to apply a zoom effect */
-    border: 2px solid black; /* Add a solid red border */
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a box shadow with transparency */
+  transform: scale(0.9); /* Use scale to apply a zoom effect */
+  border: 2px solid black; /* Add a solid red border */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a box shadow with transparency */
 }
 /* para 6 */
 .intro .para6 {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding: 10px;
-    transition: transform 3s ease-in-out, box-shadow 3s ease-in-out;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  transition: transform 3s ease-in-out, box-shadow 3s ease-in-out;
 }
 
 .intro .para6:hover {
-    transform: scale(0.9); /* Use scale to apply a zoom effect */
-    border: 2px solid yellow; /* Add a solid red border */
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a box shadow with transparency */
+  transform: scale(0.9); /* Use scale to apply a zoom effect */
+  border: 2px solid yellow; /* Add a solid red border */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a box shadow with transparency */
 }
 /* why Safety */
-.safety .heading2{
-    color: red;
+.safety .heading2 {
+  font-size: 35px;
+  color: red;
 }
 /* point 1 */
-.point1 h3{
-    margin: 5px;
+.point1 h3 {
+  margin: 5px;
 }
-.point1 article{
-    padding: 10px;
+.point1 article {
+  font-size: 17px;
+  padding: 10px;
 }
 /* point 2 */
-.point2 h3{
-    margin: 5px;
+.point2 h3 {
+  margin: 5px;
 }
-.point2 article{
-    padding: 10px;
+.point2 article {
+  font-size: 17px;
+  padding: 10px;
 }
 /* point 3*/
-.point3 h3{
-    margin: 5px;
+.point3 h3 {
+  margin: 5px;
 }
-.point3 article{
-    padding: 10px;
+.point3 article {
+  font-size: 17px;
+  padding: 10px;
 }
 /* point 4 */
-.point4 h3{
-    margin: 5px;
+.point4 h3 {
+  margin: 5px;
 }
-.point4 article{
-    padding: 10px;
+.point4 article {
+  font-size: 17px;
+  padding: 10px;
 }
 /* point 5 */
-.point5 h3{
-    margin: 5px;
+.point5 h3 {
+  margin: 5px;
 }
-.point5 article{
-    padding: 10px;
+.point5 article {
+  font-size: 17px;
+  padding: 10px;
 }
 /* point 6 */
-.point6 h3{
-    margin: 5px;
+.point6 h3 {
+  margin: 5px;
 }
-.point6 article{
-    padding: 10px;
+.point6 article {
+  font-size: 17px;
+  padding: 10px;
 }
 /* Advantage */
-.advantages h2{
-    color: red;
+.advantages h2 {
+  color: red;
+  font-size: 35px;
 }
-.advantages h3{
-    margin: 5px;
+.advantages h3 {
+  margin: 5px;
 }
-.advantages article{
-
-    padding: 5px;
+.advantages article {
+  font-size: 17px;
+  padding: 5px;
 }
 /* Disadvantage */
-.disadvantages h2{
-    color: red;
+.disadvantages h2 {
+  color: red;
+  font-size: 35px;
 }
-.disadvantages h3{
-    margin: 5px;
+.disadvantages h3 {
+  margin: 5px;
 }
-.disadvantages article{
-    padding: 5px;
+.disadvantages article {
+  font-size: 17px;
+  padding: 5px;
 }
 /* Impact on Family */
-.family h2{
-    color: red;
+.family h2 {
+  color: red;
+  font-size: 35px;
 }
-.family article{
-    padding: 5px;
+.family article {
+  font-size: 17px;
+  padding: 5px;
 }
-.family h3{
-    margin: 5px;
+.family h3 {
+  margin: 5px;
 }
-.family article{
-    padding: 5px;
+.family article {
+  font-size: 17px;
+  padding: 5px;
 }
 /* Real Life Story */
-.story  h3{
+.story h3 {
+  font-size: 35px;
+  color: red;
+}
+/* part 1 */
+.part1 p {
+  margin-top: 5px;
+  margin-bottom: -12px;
+}
+article.part1 {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+/* part 2 */
+.part2 p {
+  margin-top: 10px;
+  margin-bottom: -12px;
+}
+article.part2 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+/* part 3 */
+article.part3 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+/* Guide to follow */
+.guide h2 {
+  color: red;
+  font-size: 35px;
+}
+.guide article {
+  font-size: 17px;
+  padding: 15px;
+}
+/* Rules */
+.guide li {
+  list-style: none;
+}
+/* Heading Hover  Effect */
+.guide h3{
+    margin-top: 10px;
+  color: red;
+  text-align: center;
+  border: solid red;
+  width: 25%;
+  padding: 15px;
+  border-radius: 50%;
+  margin-left: 35%;
+  transition: transform 2s ease, box-shadow 2s ease-in-out,
+    background-color 1s ease-in-out;
+}
+.guide h3:hover{
+    transform: scale(0.8);
+    box-shadow: 5px 5px 5px blue;
+    background-color: black;
+}
+.guide li{
+    margin-left:10px;
+}
+.guide p{
+    margin-left: 10px;
+    font-size: 17px;
+    padding: 15px;
+}
+/* Conclusion */
+.conclusion h2{
+    font-size: 40px;
     color: red;
-    font-size: x-large;
+    margin-bottom: 10px;
 }
-.story .part1 p{
-    margin-bottom:0px;
+.conclusion article{
+    margin-left: 10px;
+    font-size: 17px;
+    padding: 15px;   
 }
-.part1{
-    margin: 0px;
+/* Action we can to avoid accident */
+.action h2{
+    font-size: 40px;
+    color: red;
+    margin-bottom: 10px; 
+}
+.action p{
+    margin-left: 10px;
+    font-size: 17px;
+    padding: 15px;   
+}
+.action li{
+    list-style: none;
+}
+.action article{
+    margin-left: 10px;
+    font-size: 17px;
+    padding: 15px;   
+}
+/* Finalize */
+.finalize h2{
+    color: red;
+}
+.finalize p{
+    margin-left: 10px;
+    font-size: 17px;
+    padding: 15px;   
+}
+/* Copyright */
+.copyright h6{
+    font-size: 12px;
 }
