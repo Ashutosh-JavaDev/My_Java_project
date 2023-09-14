@@ -1,6 +1,5 @@
 package w3school;
 import java.util.*;
-
 public class duplicate {
     // Function to count the total number of duplicate elements in an array
     public static int countDuplicates(int arr[], int size) {
