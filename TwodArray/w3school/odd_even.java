@@ -1,4 +1,4 @@
-/*Write a program in java to separate odd and even integers into separate arrays.*/
+/*Write a program in java to separate odd and even integers into separate arrays*/
 package w3school;
 import java.util.*;
 public class odd_even{
