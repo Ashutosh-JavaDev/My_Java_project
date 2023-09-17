@@ -1,3 +1,4 @@
+/*Arrange the Value in Descending Order by Bubble  Sort*/
 package w3school;
 import java.util.*;
 public class descending {
