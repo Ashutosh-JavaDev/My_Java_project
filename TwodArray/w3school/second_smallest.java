@@ -26,12 +26,12 @@ public class second_smallest {
    public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     System.out.println("Enter the size of array");
-    int size=sc.nextInt();
-    int arr[]=new int[size];
+    int s=sc.nextInt();
+    int arr[]=new int[s];
     System.out.println("Enter the array elements");
-    for(int i=0;i<size;i++){
+    for(int i=0;i<s;i++){
         arr[i]=sc.nextInt();
     }
-        second_smallest(arr, size);
+        second_smallest(arr, s);
    }
 }
