@@ -3,7 +3,7 @@ import java.util.*;
 
 public class insert_value_in_middle {
     public static void insert(int arr[], int size, int pos, int num) {
-        // Create a new array to accommodate the inserted value
+       // Create a new array to accommodate the inserted value
         int temp[] = new int[size + 1];
 
         // Copy elements before the position
@@ -30,7 +30,7 @@ public class insert_value_in_middle {
         System.out.println("Enter the size of the array");
         int size = sc.nextInt();
         int arr[] = new int[size];
-        System.out.println("Enter the array elements in sorted way");
+        System.out.println("Enter the array elements");
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
