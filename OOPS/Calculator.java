@@ -34,30 +34,34 @@ class Calculate {
         System.out.println("Enter the value of Second Number");
         b = sc.nextFloat();
     }
-}
 
-public class Calculator {
-    public static void main(String[] args) {
+    public void calculations() {
         Scanner sc = new Scanner(System.in);
-        Calculate krishna = new Calculate();
-        krishna.initialization();
         System.out.println("Press Button:\n+\n-\n*\n/\nfor your needed output");
         char press = sc.next().charAt(0);
         switch (press) {
             case '+':
-                System.out.println(krishna.sum());
+                System.out.println(sum());
                 break;
             case '-':
-                System.out.println(krishna.sub());
+                System.out.println(sub());
                 break;
             case '*':
-                System.out.println(krishna.mul());
+                System.out.println(mul());
                 break;
             case '/':
-                System.out.println(krishna.div());
+                System.out.println(div());
                 break;
             default:
                 System.out.println("Error: Invalid operator");
         }
+    }
+}
+
+public class Calculator {
+    public static void main(String[] args) {
+        Calculate krishna = new Calculate();
+        krishna.initialization();
+        krishna.calculations();
     }
 }
