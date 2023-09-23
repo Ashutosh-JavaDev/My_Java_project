@@ -16,6 +16,7 @@ public class  LowerTriangular{
                     System.out.print(arr[i][j]+" ");
                 }
             }
+            System.out.println();
         }
 }
 public static void main(String[] args) {
