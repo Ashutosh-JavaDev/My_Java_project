@@ -1,4 +1,4 @@
-package TwodArray.w3school.TwoDArray;
+package w3school.TwoDArray;
 import java.util.*;
 public class display{
     public static void display(int arr[][],int size,int size1){

@@ -1,4 +1,4 @@
-package TwodArray.w3school.TwoDArray;
+package w3school.TwoDArray;
 import java.util.*;
 public class left_diagonal_sum {
     public static void original(int arr[][],int size){

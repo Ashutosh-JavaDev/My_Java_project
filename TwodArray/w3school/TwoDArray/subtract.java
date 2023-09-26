@@ -1,4 +1,4 @@
-package TwodArray.w3school.TwoDArray;
+package w3school.TwoDArray;
 import java.util.*;
 public class subtract {
     public static void first(int arr[][],int size,int size1){
