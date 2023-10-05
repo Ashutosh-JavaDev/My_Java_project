@@ -6,7 +6,7 @@ public class question1 {
         while(f<=l){
             int mid=(f+l)/2;
             if (arr[mid]==target){
-                return mid;
+                return mid+1;
             }
             else if(arr[mid]<target){
                 f=mid+1;
