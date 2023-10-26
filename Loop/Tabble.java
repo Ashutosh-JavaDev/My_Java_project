@@ -15,7 +15,7 @@ public class Tabble {
         int l = sc.nextInt();
         for (int i = s; i <= e; i++) {
             for (int j = f; j <= l; j++) {
-                
+                System.out.println(i+"*"+j+"="+i*j);
             }
 
         }
