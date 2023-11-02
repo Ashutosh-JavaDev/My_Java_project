@@ -4,7 +4,7 @@ import java.util.*;
 public class frequency{
 	public static void main(String[]args){
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the string");
+		System.out.println("Enter the Line");
 		String str=sc.nextLine();
 		lengt(str);
 	}
