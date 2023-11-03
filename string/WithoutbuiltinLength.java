@@ -9,7 +9,7 @@ public class WithoutbuiltinLength {
     }
     public  static void main(String[]args){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter thee  Senetence");
+        System.out.println("Enter the Senetence");
         String str=sc.nextLine();
         int check= lambai(str);
         System.out.println("Output: "+check);
