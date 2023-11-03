@@ -11,8 +11,8 @@ public class WithoutbuiltinLength {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter thee  Senetence");
         String str=sc.nextLine();
-        lambai(str);
-        
+        int check= lambai(str);
+        System.out.println("Output: "+check);
     }
         
 }
