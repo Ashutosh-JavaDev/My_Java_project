@@ -1,8 +1,8 @@
-package Basic_Java;
+package Basic_Java.BufferInput;
 
 import java.io.*;
 
-public class Bufferreader {
+public class BuffRead {
     public static void main(String[] args) throws IOException {
         InputStreamReader read = new InputStreamReader(System.in);
         BufferedReader sc = new BufferedReader(read);
@@ -10,10 +10,10 @@ public class Bufferreader {
         int roll = Integer.parseInt(sc.readLine());
         System.out.println("Enter Name");
         String Name = sc.readLine();
-        System.out.println("Enter Feee");
+        System.out.println("Enter Fee");
         Double Fee = Double.parseDouble(sc.readLine());
         System.out.println("Enter the Grade");
-        char grade = (char) sc.read();
+        char grade = sc.readLine().charAt(0);
         System.out.println("Enter Percentage");
         Float per = Float.parseFloat(sc.readLine());
         // Print All The Value
