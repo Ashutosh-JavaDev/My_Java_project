@@ -12,13 +12,13 @@ public class CheckMajorityElement {
           }
         }
         if(Duplicate>(size%2)){
-            System.out.println("One NUmber is More than Size");
+            System.out.println("One Number is More than Size");
         }
         else{
             System.out.println("No Number is  More than Size");
         }
     }
-    public static void main(String[]arrgs)throws IOException{
+    public static void main(String[]args)throws IOException{
         InputStreamReader read=new InputStreamReader(System.in);
         BufferedReader sc=new BufferedReader(read);
         System.out.println("Enter the size of the Array");
