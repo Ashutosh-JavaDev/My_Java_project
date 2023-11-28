@@ -1,6 +1,6 @@
 package Basic_Java.BufferInput;
 import java.io.*;
-public class Square {
+public class Power {
     public static void  main(String[]args)throws IOException
 {
     InputStreamReader read=new InputStreamReader(System.in);
