@@ -16,6 +16,11 @@ public class Bufferreader {
         char grade = (char) sc.read();
         System.out.println("Enter Percentage");
         Float per = Float.parseFloat(sc.readLine());
-
+        // Print All The Value
+        System.out.println("Name    : "+Name);
+        System.out.println("Roll     : "+roll);
+        System.out.println("Fee : "+Fee);
+        System.out.println("Percentage  : "+per);
+        System.out.println("Grade   : "+grade);
     }
 }
