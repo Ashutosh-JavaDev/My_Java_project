@@ -15,6 +15,7 @@ public class Divisible5or7 {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Number wants to check");
         int number=sc.nextInt();
-        result(number);
+        boolean answer=result(number);
+        System.out.println("Number is Divisible By 5 and 7 Both");
     }
 }
