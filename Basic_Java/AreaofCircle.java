@@ -1,4 +1,4 @@
-package Basic_Java.JavaProgram;
+package Basic_Java;
 import java.util.*;
 public class AreaofCircle {
     public static float Circle(float radius){
