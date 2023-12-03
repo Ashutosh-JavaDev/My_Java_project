@@ -5,7 +5,7 @@ import java.util.*;
 public class ArrayCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int value = 0;
+        int value = 0,sum=0,mul=0,sub=0;
         System.out.println("Enter the Size of the Array");
         int size = sc.nextInt();
         int arr[] = new int[size];
@@ -21,15 +21,15 @@ public class ArrayCalculator {
             switch (oper) {
                 case '+':
                     value = value + arr[i];
-                    System.out.println("Output: " + value);
+                    sum++;
                     break;
                 case '-':
                     value = value - arr[i];
-                    System.out.println("Output: " + value);
+                    sub++;
                     break;
                 case '*':
                     value = value * arr[i];
-                    System.out.println("Output: " + value);
+                    mul++;
                     break;
                 case '/':
                     System.out.println("Enter Two Different Number for result");
@@ -49,6 +49,16 @@ public class ArrayCalculator {
                     System.out.println("Invalid Operator");
                     break;
             }
+
+        }
+        if(sum>0){
+            System.out.println("Output: " + value);
+        }
+        else if(sub>0){
+            System.out.println("Output: " + value);
+        }
+        else if(mul>0){
+            System.out.println("Output: " + value);
         }
 
     }
