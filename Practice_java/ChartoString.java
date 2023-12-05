@@ -2,5 +2,5 @@
 package Practice_java;
 import java.util.*;
 public class ChartoString {
-    
+    public static
 }
