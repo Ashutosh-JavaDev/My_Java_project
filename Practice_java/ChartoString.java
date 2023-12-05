@@ -13,6 +13,12 @@ public class ChartoString {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number of character you want to add in a sentence");
         int size=sc.nextInt();
-        
+        sc.nextLine();
+        char ch[]=new char[size];
+        for(int i=0;i<size;i++){
+            ch[i]=sc.next().charAt(0);
+        }
+        String output=result(ch, size);
+        System.out.println(output);
     }
 }
