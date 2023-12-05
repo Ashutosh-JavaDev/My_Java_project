@@ -12,9 +12,9 @@ public class TwoSpecificPositionSubstring {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Sentence");
         String str1=sc.nextLine();
-        System.out.println(("Enter the Value of starting Index"));
+        System.out.println(("Enter the Value of starting Index, while remembred that starting index is 0"));
         int startingIndex=sc.nextInt();
-        System.out.println("ENter the Value of Ending Index");
+        System.out.println("Enter the Value of Ending Index by remembred that the last index will take,value-1");
         int endingIndex=sc.nextInt();
         String Output=result(str1, startingIndex, endingIndex);
         System.out.println(Output);
