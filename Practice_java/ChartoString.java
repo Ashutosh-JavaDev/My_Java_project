@@ -3,6 +3,7 @@ package Practice_java;
 import java.util.*;
 public class ChartoString {
     public static String result(char chr[]){
-        
+        String answer="";
+        return answer;
     }
 }
