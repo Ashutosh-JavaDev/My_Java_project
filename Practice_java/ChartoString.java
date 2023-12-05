@@ -15,6 +15,7 @@ public class ChartoString {
         int size=sc.nextInt();
         sc.nextLine();
         char ch[]=new char[size];
+        System.out.println("Enter the character");
         for(int i=0;i<size;i++){
             ch[i]=sc.next().charAt(0);
         }
