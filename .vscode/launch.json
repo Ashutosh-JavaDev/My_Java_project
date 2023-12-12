@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseOddLessThanOne",
+            "request": "launch",
+            "mainClass": "Loop.ReverseOddLessThanOne",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
