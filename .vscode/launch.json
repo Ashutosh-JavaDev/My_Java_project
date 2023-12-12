@@ -1,0 +1,658 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AasterikPrymid",
+            "request": "launch",
+            "mainClass": "Basic_Java.AasterikPrymid.AasterikPrymid",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "he",
+            "request": "launch",
+            "mainClass": "Basic_Java.Algebraprogram.java_program.he",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Ascendingorder",
+            "request": "launch",
+            "mainClass": "Basic_Java.Ascendingorder.Ascendingorder",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "AsterikPrymid",
+            "request": "launch",
+            "mainClass": "Basic_Java.Asterikprymid.AsterikPrymid",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Averageandsum",
+            "request": "launch",
+            "mainClass": "Basic_Java.Averageandsum.Averageandsum",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "CubeSeries",
+            "request": "launch",
+            "mainClass": "Basic_Java.CubeSeries.CubeSeries",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "AddTwoNumber2",
+            "request": "launch",
+            "mainClass": "Basic_Java.Dividetwonumber.AddTwoNumber2.AddTwoNumber2",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Dividetwonumber",
+            "request": "launch",
+            "mainClass": "Basic_Java.Dividetwonumber.Dividetwonumber",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Eligiblity_criteria",
+            "request": "launch",
+            "mainClass": "Basic_Java.Eligiblity_criteria.Eligiblity_criteria",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Equalornot",
+            "request": "launch",
+            "mainClass": "Basic_Java.Equalornot.Equalornot",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Evenorodd",
+            "request": "launch",
+            "mainClass": "Basic_Java.Evenorodd.Evenorodd",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Faactorialsum",
+            "request": "launch",
+            "mainClass": "Basic_Java.Faactorialsum.Faactorialsum",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Factorialnumber",
+            "request": "launch",
+            "mainClass": "Basic_Java.Factorialnumber.Factorialnumber",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "digit_sum",
+            "request": "launch",
+            "mainClass": "Basic_Java.Factorialnumber.digit_sum",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "leader",
+            "request": "launch",
+            "mainClass": "Basic_Java.Factorialnumber.leader",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Factorialsum",
+            "request": "launch",
+            "mainClass": "Basic_Java.Factorialsum.Factorialsum",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Harmonicseries",
+            "request": "launch",
+            "mainClass": "Basic_Java.Harmonicseries.Harmonicseries",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Multipicationtable",
+            "request": "launch",
+            "mainClass": "Basic_Java.Multipicationtable.Multipicationtable",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Multipleoftwonumber2",
+            "request": "launch",
+            "mainClass": "Basic_Java.Multipleoftwonumber2.Multipleoftwonumber2",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Number_greater_between_3",
+            "request": "launch",
+            "mainClass": "Basic_Java.Number_greater_between_3.Number_greater_between_3",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Positive_negative",
+            "request": "launch",
+            "mainClass": "Basic_Java.Positive_negative.Positive_negative",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Revresenumber",
+            "request": "launch",
+            "mainClass": "Basic_Java.Revresenumber.Revresenumber",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Char_at",
+            "request": "launch",
+            "mainClass": "Basic_Java.Strings_folder.Char_at.Char_at",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Subtwonumber2",
+            "request": "launch",
+            "mainClass": "Basic_Java.Subtwonumber2.Subtwonumber2",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Sumofgivennumber",
+            "request": "launch",
+            "mainClass": "Basic_Java.Sumofgivennumber.Sumofgivennumber",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "armstrong",
+            "request": "launch",
+            "mainClass": "Basic_Java.Sumofgivennumber.armstrong",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Sumofnaturalnumber",
+            "request": "launch",
+            "mainClass": "Basic_Java.Sumofnaturalnumber.Sumofnaturalnumber",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Teennumbersum",
+            "request": "launch",
+            "mainClass": "Basic_Java.Teennumbersum.Teennumbersum",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Tennumbersum",
+            "request": "launch",
+            "mainClass": "Basic_Java.Tennumbersum.Tennumbersum",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Threedecimalplace",
+            "request": "launch",
+            "mainClass": "Basic_Java.Threedecimalplace.Threedecimalplace",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Trigonometery",
+            "request": "launch",
+            "mainClass": "Basic_Java.Trigonometery.Trigonometery",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Trigonometry",
+            "request": "launch",
+            "mainClass": "Basic_Java.Trigonometry.Trigonometry",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Weekday",
+            "request": "launch",
+            "mainClass": "Basic_Java.Weekday.Weekday",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Formulaofcircle",
+            "request": "launch",
+            "mainClass": "Basic_Java.formulaofcircle.Formulaofcircle",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "greater_smaller",
+            "request": "launch",
+            "mainClass": "Basic_Java.greater_smaller.greater_smaller",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "naturalnumber",
+            "request": "launch",
+            "mainClass": "Basic_Java.naturalnumber.naturalnumber",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "phythagoroustheorom",
+            "request": "launch",
+            "mainClass": "Basic_Java.phythagorous_theorom.phythagoroustheorom",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Area_of_circle",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Area.Area_of_circle.Area_of_circle",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Areaofcircle",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Area.Area_of_circle.Areaofcircle",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Areofcircle",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Area.Areofcircle.Areofcircle",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "armstrong(1)",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Armstrong.armstrong",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Astrick_print",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Astrick_print.Astrick_print",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Calculatorformat",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Calculatorformat.Calculatorformat",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "armstrong(2)",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Circle.armstrong",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Comparisionofnumber",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Comparisionofnumber.Comparisionofnumber",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Counting_prime_number",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Counting_prime_number.Counting_prime_number",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Evennumbersum",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Evennumbersum.Evennumbersum",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Greateramongfivenumber",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Greateramongfivenumber.Greateramongfivenumber",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Monthintheyear",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Monthintheyear.Monthintheyear",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Multipicationofvalue",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Multipicationofvalue.Multipicationofvalue",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Natural_number",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Natural_number.Natural_number",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Nmultiplevalue",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Nmultiplevalue.Nmultiplevalue",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Percentageofstudent",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Percentageofstudent.Percentageofstudent",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Prime_or_not",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Prime_or_not.Prime_or_not",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Sumofnaturalnumber(1)",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Sumofnaturalnumber.Sumofnaturalnumber",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Tableofnumber",
+            "request": "launch",
+            "mainClass": "Basic_Java.practice_use.Tableofnumber.Tableofnumber",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "AsterikLoop",
+            "request": "launch",
+            "mainClass": "Loop.AsterikLoop",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "InnerOuterLoop",
+            "request": "launch",
+            "mainClass": "Loop.InnerOuterLoop",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "InnerPuterLoop",
+            "request": "launch",
+            "mainClass": "Loop.InnerPuterLoop",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "OddOuterLoop",
+            "request": "launch",
+            "mainClass": "Loop.OddOuterLoop",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "OuterLoop",
+            "request": "launch",
+            "mainClass": "Loop.OuterLoop",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "OuterLoopAsterik",
+            "request": "launch",
+            "mainClass": "Loop.OuterLoopAsterik",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLessThanOneLoop",
+            "request": "launch",
+            "mainClass": "Loop.ReverseLessThanOneLoop",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "ReverseOddOuterLoop",
+            "request": "launch",
+            "mainClass": "Loop.ReverseOddOuterLoop",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "ReverseOuterLoop",
+            "request": "launch",
+            "mainClass": "Loop.ReverseOuterLoop",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "ReverseOuterOneLoop",
+            "request": "launch",
+            "mainClass": "Loop.ReverseOuterOneLoop",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "lessThanOneLoop",
+            "request": "launch",
+            "mainClass": "Loop.lessThanOneLoop",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "CharacterToString",
+            "request": "launch",
+            "mainClass": "Practice_java.CharacterToString",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "ChartoString",
+            "request": "launch",
+            "mainClass": "Practice_java.ChartoString",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Checkends",
+            "request": "launch",
+            "mainClass": "Practice_java.Checkends",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Concatinate",
+            "request": "launch",
+            "mainClass": "Practice_java.Concatinate",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "ContainSameData",
+            "request": "launch",
+            "mainClass": "Practice_java.ContainSameData",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Password",
+            "request": "launch",
+            "mainClass": "Practice_java.Password",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Replace",
+            "request": "launch",
+            "mainClass": "Practice_java.Replace",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Startwith",
+            "request": "launch",
+            "mainClass": "Practice_java.Startwith",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "TrinSpaces",
+            "request": "launch",
+            "mainClass": "Practice_java.TrinSpaces",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "TwoSpecificPositionSubstring",
+            "request": "launch",
+            "mainClass": "Practice_java.TwoSpecificPositionSubstring",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "tooLowercase",
+            "request": "launch",
+            "mainClass": "Practice_java.tooLowercase",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "tooUppercase",
+            "request": "launch",
+            "mainClass": "Practice_java.tooUppercase",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Management",
+            "request": "launch",
+            "mainClass": "Student_Management.Management",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "detail_employee",
+            "request": "launch",
+            "mainClass": "detail_employee",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Diamond",
+            "request": "launch",
+            "mainClass": "java_function.Diamond",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Diamond1",
+            "request": "launch",
+            "mainClass": "java_function.Diamond1",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Number_search",
+            "request": "launch",
+            "mainClass": "java_function.Number_search",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Search_By_UserChoice",
+            "request": "launch",
+            "mainClass": "java_function.Search_By_UserChoice",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "myname",
+            "request": "launch",
+            "mainClass": "java_function.myname",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "return_array",
+            "request": "launch",
+            "mainClass": "java_function.return_array",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "swastik",
+            "request": "launch",
+            "mainClass": "java_function.swastik",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "target",
+            "request": "launch",
+            "mainClass": "target",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "three_number_sum",
+            "request": "launch",
+            "mainClass": "three_number_sum",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Sum",
+            "request": "launch",
+            "mainClass": "w3school.TwoDArray.Sum",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "transpose",
+            "request": "launch",
+            "mainClass": "w3school.TwoDArray.transpose",
+            "projectName": "My_Program_ff3ac0a3"
+        }
+    ]
+}
