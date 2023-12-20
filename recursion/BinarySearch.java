@@ -8,7 +8,7 @@ public class BinarySearch {
         int mid = start + (end - start) / 2;
 
         if (target == arr[mid]) {
-            return arr[mid];
+            return mid;
         }
         if (target > arr[mid]) {
             return search(arr, target, start + 1, end);
