@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PowerFunction",
+            "request": "launch",
+            "mainClass": "PowerFunction",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "MaximumAndMinimum",
+            "request": "launch",
+            "mainClass": "MaximumAndMinimum",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "SumOfDigits",
+            "request": "launch",
+            "mainClass": "SumOfDigits",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "PrintNumberSeries",
+            "request": "launch",
+            "mainClass": "PrintNumberSeries",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "abc1",
+            "request": "launch",
+            "mainClass": "abc1",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
             "name": "ReverseOddLessThanOne",
             "request": "launch",
             "mainClass": "Loop.ReverseOddLessThanOne",

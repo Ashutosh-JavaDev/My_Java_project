@@ -5,8 +5,7 @@ public class PowerFunction {
             return num;
         }
         else{
-            System.out.println(num);
-            return check(num*num);
+            return num*check(num);
         }
     }    
     public static void main(String[] args) {
