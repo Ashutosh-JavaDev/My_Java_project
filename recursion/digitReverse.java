@@ -1,5 +1,5 @@
 import java.util.*;
-public class Reverse {
+public class digitReverse {
     public static void reverse(int num){
         if(num<10){
           System.out.println(num);
@@ -7,10 +7,9 @@ public class Reverse {
         }
         else{
             int div=num%10;
-            System.out.println(div);
+            System.out.println(div+"\n");
             reverse(num/10);
         }
-        System.out.println();
 
     }    
     public static void main(String[] args) {
