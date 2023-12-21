@@ -1,7 +1,7 @@
 import java.util.*;
 public class oddPositiveNumber {
     public static void check(int term,int i){
-        if(i==term){
+        if(i>=term){
             System.out.println(i);
             return;
         }
