@@ -7,10 +7,9 @@ public class digitReverse {
         }
         else{
             int div=num%10;
-            System.out.println(div+"\n");
+            System.out.print(div);
             reverse(num/10);
         }
-
     }    
     public static void main(String[] args) {
         Scanner sc=new Scanner((System.in));
