@@ -6,9 +6,6 @@ public class oddEvenSum {
             return 0;
         }
 
-        // int currentNumber = arr[size - 1];
-        // int recursiveSum = add(arr, size - 1);
-
         if(arr[size-1]%2==0){
             return add(arr, size-1)+arr[size-1];
         } else {
