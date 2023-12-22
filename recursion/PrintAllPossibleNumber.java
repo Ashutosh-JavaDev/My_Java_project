@@ -1,7 +1,7 @@
 import java.util.*;
 public class PrintAllPossibleNumber {
     public static int possibleOutcome(int arr[],int target,int size,int i,int j){
-        if(size<=0){
+        if(i>=size){
             return 0;
         }
        if(j<size){
