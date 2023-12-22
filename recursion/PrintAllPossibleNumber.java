@@ -5,8 +5,8 @@ public class PrintAllPossibleNumber {
             System.out.println(size);
             return 0;
         }
-        else if(arr[size-1]+arr[i+1]==target){
-            System.out.println(arr[size-1]+" + "+arr[i+1]+" = "+target);
+        else if(arr[size-1]+arr[i]==target){
+            System.out.println(arr[size-1]+" + "+arr[i]+" = "+target);
             return possibleOutcome(arr, target, size-1, i+1);
         }
         else{
