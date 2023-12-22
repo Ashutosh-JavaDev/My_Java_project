@@ -10,7 +10,7 @@ public class PrintAllPossibleNumber {
             return possibleOutcome(arr, target, size-1, i+1);
         }
         else{
-            return possibleOutcome(arr, target, size-1, i+1)
+            return possibleOutcome(arr, target, size-1, i+1);
         }
     } 
     public static void main(String[] args) {
@@ -18,5 +18,10 @@ public class PrintAllPossibleNumber {
         System.out.println("Enter the size of the Array");
         int size=sc.nextInt();
         int arr[]=new int[size];
+        System.out.println("Enter the Value in Array");
+        for(int i=0;i<size;i++){
+            arr[i]=sc.nextInt();
+        }
+
     }   
 }
