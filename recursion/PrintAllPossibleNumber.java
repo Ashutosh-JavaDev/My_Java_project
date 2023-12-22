@@ -1,12 +1,22 @@
 import java.util.*;
 public class PrintAllPossibleNumber {
-    public static void possibleOutcome(int arr[],int target,int size,int i){
+    public static int possibleOutcome(int arr[],int target,int size,int i){
         if(size<=0){
             System.out.println(size);
-            return;
+            return 0;
         }
         else if(arr[size-1]+arr[i+1]==target){
-            
+            System.out.println(arr[size-1]+" + "+arr[i+1]+" = "+target);
+            return possibleOutcome(arr, target, size-1, i+1);
         }
-    }    
+        else{
+            return possibleOutcome(arr, target, size-1, i+1)
+        }
+    } 
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the size of the Array");
+        int size=sc.nextInt();
+        int arr[]=new int[size];
+    }   
 }
