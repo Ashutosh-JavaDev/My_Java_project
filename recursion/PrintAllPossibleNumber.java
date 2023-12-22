@@ -1,29 +1,32 @@
-import java.util.*;
+import java.util.Scanner;
+
 public class PrintAllPossibleNumber {
-    public static int possibleOutcome(int arr[],int target,int size,int i){
-        if(size<=0){
-            System.out.println(size);
+    public static int possibleOutcome(int arr[], int target, int size, int i, int j) {
+        if (i >= size) {
             return 0;
         }
-        else if(arr[size-1]+arr[i]==target){
-            System.out.println(arr[size-1]+" + "+arr[i]+" = "+target);
-            return possibleOutcome(arr, target, size-1, i+1);
+        if (j < size) {
+            if (i != j && arr[i] + arr[j] == target) {
+                System.out.println(arr[i] + " + " + arr[j] + " = " + target);
+            }
+            possibleOutcome(arr, target, size, i, j + 1);
+        } else {
+            possibleOutcome(arr, target, size, i + 1, i + 2);
         }
-        else{
-            return possibleOutcome(arr, target, size-1, i+1);
-        }
-    } 
+        return 0;
+    }
+
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the Array");
-        int size=sc.nextInt();
-        int arr[]=new int[size];
+        int size = sc.nextInt();
+        int arr[] = new int[size];
         System.out.println("Enter the Value in Array");
-        for(int i=0;i<size;i++){
-            arr[i]=sc.nextInt();
+        for (int i = 0; i < size; i++) {
+            arr[i] = sc.nextInt();
         }
         System.out.println("Enter the Target Value");
-        int target=sc.nextInt();
-        int outcome=possibleOutcome(arr, target, size, 1);
-    }   
+        int target = sc.nextInt();
+        int outcome = possibleOutcome(arr, target, size, 0, 1);
+    }
 }
