@@ -22,6 +22,8 @@ public class PrintAllPossibleNumber {
         for(int i=0;i<size;i++){
             arr[i]=sc.nextInt();
         }
-
+        System.out.println("Enter the Target Value");
+        int target=sc.nextInt();
+        int outcome=possibleOutcome(arr, target, size, 1);
     }   
 }
