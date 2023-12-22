@@ -13,6 +13,7 @@ public class PrintAllPossibleNumber {
        else{
         possibleOutcome(arr, target, size, i+1, i+2);
        }
+       return 0;
     } 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -25,6 +26,6 @@ public class PrintAllPossibleNumber {
         }
         System.out.println("Enter the Target Value");
         int target=sc.nextInt();
-        int outcome=possibleOutcome(arr, target, size, 1);
+        int outcome=possibleOutcome(arr, target, size, 0,1);
     }   
 }
