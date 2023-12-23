@@ -6,13 +6,13 @@ public class digitReverse {
           return;
         }
         else{
-           System.out.println(num%10);
+           System.out.print(num%10);
             reverse(num/10);
         }
     }    
     public static void main(String[] args) {
         Scanner sc=new Scanner((System.in));
-        System.out.print("Enter digit");
+        System.out.println("Enter digit");
         int num=sc.nextInt();
         reverse(num);
     }
