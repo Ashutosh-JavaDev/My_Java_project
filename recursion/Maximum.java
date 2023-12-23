@@ -6,7 +6,8 @@ public class Maximum {
             return 0;
         }
         else if(arr[i]>max){
-            return max=arr[i];
+             max=arr[i];
+             return check(arr, size-1, i+1);
         }
         else{
             return check(arr, size-1, i+1);
@@ -22,6 +23,7 @@ public class Maximum {
             arr[i]=sc.nextInt();
         }
         int output=check(arr, size, 1);
+        System.out.println(output);
     }
 
 }
