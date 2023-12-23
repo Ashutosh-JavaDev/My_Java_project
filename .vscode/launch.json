@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Maximum",
+            "request": "launch",
+            "mainClass": "Maximum",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "SumOfArray",
+            "request": "launch",
+            "mainClass": "SumOfArray",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "PrintAllPossibleNumber",
+            "request": "launch",
+            "mainClass": "PrintAllPossibleNumber",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrime",
+            "request": "launch",
+            "mainClass": "CheckPrime",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "oddEvenSum",
+            "request": "launch",
+            "mainClass": "oddEvenSum",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "digitReverse",
+            "request": "launch",
+            "mainClass": "digitReverse",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
             "name": "oddPositiveNumber",
             "request": "launch",
             "mainClass": "oddPositiveNumber",
