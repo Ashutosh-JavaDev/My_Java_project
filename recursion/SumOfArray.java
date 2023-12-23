@@ -1,25 +1,20 @@
 import java.util.*;
-public class SumOfArray {
-    public static int total(int arr[],int size){
-        int sum=0;
-        if(size==0){
-            return 0;
-        }
-        else{
-            sum=sum+arr[size-1];
-            return sum+total(arr, size-1);
-        }
-    }    
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the size of the Array");
-        int size=sc.nextInt();
-        int arr[]=new int[size];
-        System.out.println("Enter the Value in the Array");
-        for(int i=0;i<size;i++){
-            arr[i]=sc.nextInt();
-        }
-        int answer=total(arr, size);
-        System.out.println("Answer:     "+answer);
+public class SumOfArray{
+    public static int PrintSum(int Start,int end){
+       if(Start>end){
+        return 0;
+       } 
+       else{
+        return Start+PrintSum(Start+1,end);
+       }
     }
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the Starting of the Array");
+    int  Start=sc.nextInt();
+    System.out.println("Enter the ending Position");
+    int end=sc.nextInt();
+    int output=PrintSum(Start, end);
+    System.out.println("Sum From "+Start+" to " +end+" = "+output);
+  }
 }
