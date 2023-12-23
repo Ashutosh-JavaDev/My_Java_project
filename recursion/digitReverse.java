@@ -6,8 +6,7 @@ public class digitReverse {
           return;
         }
         else{
-            int div=num%10;
-            System.out.print(div);
+           System.out.println(num%10);
             reverse(num/10);
         }
     }    
