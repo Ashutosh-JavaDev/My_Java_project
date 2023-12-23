@@ -6,7 +6,11 @@ public class SumOfArray {
             return 0;
         }
         else{
-            sum
+            sum=sum+arr[size-1];
+            return sum+total(arr, size-1);
         }
     }    
+    public static void main(String[] args) {
+        
+    }
 }
