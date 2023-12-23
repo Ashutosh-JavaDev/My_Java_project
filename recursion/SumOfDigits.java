@@ -14,8 +14,7 @@ public class SumOfDigits{
     int  Start=sc.nextInt();
     System.out.println("Enter the ending Position");
     int end=sc.nextInt();
-    System.out.println("Enter the  value in the Array");
     int output=PrintSum(Start, end);
-    System.out.println("Answer: "+output);
+    System.out.println("Sum From "+Start+" to " +end+" = "+output);
   }
 }
