@@ -12,7 +12,7 @@ public class digitReverse {
     }    
     public static void main(String[] args) {
         Scanner sc=new Scanner((System.in));
-        System.out.println("Enter digit");
+        System.out.print("Enter digit");
         int num=sc.nextInt();
         reverse(num);
     }
