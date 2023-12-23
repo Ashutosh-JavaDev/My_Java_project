@@ -20,5 +20,6 @@ public class SumOfArray {
             arr[i]=sc.nextInt();
         }
         int answer=total(arr, size);
+        System.out.println("Answer:     "+answer);
     }
 }
