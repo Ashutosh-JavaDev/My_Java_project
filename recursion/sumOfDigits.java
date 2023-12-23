@@ -8,7 +8,7 @@ public class sumOfDigits {
         else{
             int d=num%10;
             sum=sum+d;
-            return sumOfdigits(num/10);
+            return sum+sumOfdigits(num/10);
         }
     }    
     public static void main(String[] args) {
