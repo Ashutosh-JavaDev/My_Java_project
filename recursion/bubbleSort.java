@@ -1,7 +1,7 @@
 import java.util.*;
 public class bubbleSort {
     public static void bubble(int arr[],int r,int c){
-        if(r>5){
+        if(r==0){
             return;
         }
         if(c<r){
@@ -13,7 +13,12 @@ public class bubbleSort {
             bubble(arr, r, c+1);
         }
         else{
-            bubble(arr, r+1, c);
+            bubble(arr, r-1, c);
         }
     }    
+    public static void main(String[] args) {
+        int arr[]={5,4,3,2,1};
+         bubble(arr, arr.length-1, 0);
+         System.out.println(Arrays.toString(arr));
+    }
 }
