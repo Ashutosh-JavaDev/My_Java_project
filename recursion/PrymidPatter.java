@@ -17,7 +17,7 @@ public class PrymidPatter {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the size of pattern");
         int size=sc.nextInt();
-        pattern(4, 0);
+        pattern(size, 0);
 
 
     }
