@@ -4,6 +4,16 @@ public class bubbleSort {
         if(r>5){
             return;
         }
-        if()
+        if(c<r){
+            if(arr[c]>arr[c+1]){
+                int temp=arr[c];
+                arr[c]=arr[c+1];
+                arr[c+1]=temp;
+            }
+            bubble(arr, r, c+1);
+        }
+        else{
+            bubble(arr, r+1, c);
+        }
     }    
 }
