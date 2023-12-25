@@ -13,11 +13,11 @@ public class bubbleSort {
             bubble(arr, r, c+1);
         }
         else{
-            bubble(arr, r-1, c);
+            bubble(arr, r-1, 0);
         }
     }    
     public static void main(String[] args) {
-        int arr[]={5,4,3,2,1};
+        int arr[]={5,3,2,4,1};
          bubble(arr, arr.length-1, 0);
          System.out.println(Arrays.toString(arr));
     }
