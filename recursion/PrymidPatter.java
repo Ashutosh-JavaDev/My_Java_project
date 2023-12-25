@@ -1,11 +1,11 @@
 import java.util.*;
 public class PrymidPatter {
     public static void pattern(int i,int j){
-        if(i==j){
+        if(i==0){
             return;
         }
         if(j<i){
-            System.out.println("*");
+            System.out.print("*");
             pattern(i, j+1);
         }
         else{
@@ -17,7 +17,7 @@ public class PrymidPatter {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the size of pattern");
         int size=sc.nextInt();
-        pattern(size, 0);
+        pattern(4, 0);
 
 
     }
