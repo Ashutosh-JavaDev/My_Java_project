@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "Triangle",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "ReversePrymid",
+            "request": "launch",
+            "mainClass": "ReversePrymid",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "PrymidPatter",
+            "request": "launch",
+            "mainClass": "PrymidPatter",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "sumOfDigits",
+            "request": "launch",
+            "mainClass": "sumOfDigits",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "SumOfDigit",
+            "request": "launch",
+            "mainClass": "SumOfDigit",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "fibonacci",
+            "request": "launch",
+            "mainClass": "fibonacci",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
             "name": "Maximum",
             "request": "launch",
             "mainClass": "Maximum",
