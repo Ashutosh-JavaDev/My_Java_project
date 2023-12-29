@@ -5,10 +5,10 @@ public class bubbleSort {
             return;
         }
         if(c<r){
-            if(arr[c]>arr[c+1]){
-                int temp=arr[c];
-                arr[c]=arr[c+1];
-                arr[c+1]=temp;
+            if(arr[r]>arr[r+1]){
+                int temp=arr[r];
+                arr[r]=arr[r+1];
+                arr[r+1]=temp;
             }
             bubble(arr, r, c+1);
         }
