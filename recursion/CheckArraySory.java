@@ -29,17 +29,14 @@ class checksort {
         int count = 0;
         i = 0;
 
-        if (i == size-1) {
-            // System.out.println("Array is Not Sorted");
+        if (i == size - 1) {
+            System.out.println("Descending Array Count");
+            System.out.println("Array is Sorted");
             return;
         } else {
             if (arr[i] > arr[i + 1]) {
                 count++;
                 arrayDescendingCheck(arr, size, i + 1);
-                if (count == size ) {
-                    System.out.println("Descending Array Count");
-                    System.out.println("Array is Sorted");
-                }
             } else {
                 System.out.println("Descending Array Count");
                 System.out.println("Array is Not Sorted");
@@ -50,7 +47,7 @@ class checksort {
 
 public class CheckArraySory {
     public static void main(String[] args) {
-        int arr[] = { 5,4,3,2,1};
+        int arr[] = { 5, 4, 3, 2, 1 };
         checksort ob = new checksort();
         int i = 0;
         if (arr[i] > arr[i + 1]) {
