@@ -33,7 +33,7 @@ class checksort {
             // System.out.println("Array is Not Sorted");
             return;
         } else {
-            if (arr[i] < arr[i + 1]) {
+            if (arr[i] > arr[i + 1]) {
                 count++;
                 arrayDescendingCheck(arr, size, i + 1);
                 if (count == size ) {
