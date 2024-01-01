@@ -27,8 +27,6 @@ class checksort {
     // Decending
     void arrayDescendingCheck(int arr[], int size, int i) {
         int count = 0;
-        i = 0;
-
         if (i == size - 1) {
             System.out.println("Descending Array Count");
             System.out.println("Array is Sorted");
@@ -47,11 +45,11 @@ class checksort {
 
 public class CheckArraySory {
     public static void main(String[] args) {
-        int arr[] = { 5, 4, 3, 2, 1 };
+        int arr[] = { 5, 4, 8, 2, 1 };
         checksort ob = new checksort();
         int i = 0;
         if (arr[i] > arr[i + 1]) {
-            ob.arrayDescendingCheck(arr, arr.length, i);
+            ob.arrayDescendingCheck(arr, arr.length, 0);
         } else {
             ob.arrayCheck(arr, arr.length);
         }
