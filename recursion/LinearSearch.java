@@ -3,9 +3,10 @@ import java.util.Scanner;
 class recursive {
     static boolean linear(int arr[], int target, int size) {
         if (size == arr.length) {
+            System.out.println("Element not found");
             return false;
         } else if (arr[size] == target) {
-
+            System.out.println("Element found at " + size);
             return true;
         }
         return linear(arr, target, size + 1);
