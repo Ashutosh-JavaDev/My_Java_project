@@ -3,7 +3,7 @@ import java.util.Scanner;
 class BinaryTree {
     int search(int arr[], int target, int s, int e) {
         if (s > e) {
-            System.out.println("Element Not Found");
+            System.out.println("Element Not Found here");
             return -1;
         } else {
             int m = s + (e - s) / 2;
