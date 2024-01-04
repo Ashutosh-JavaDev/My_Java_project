@@ -8,18 +8,25 @@ class ReplaceD {
     }
 
     void replaced() {
-       String st=str.replace(str, "$");
-       System.out.println(st);
+        String st="";
+        for (int i = 0; i < str.length(); i++) {
+              if (str.charAt(i) == ' ') {
+                st += "$";
+            } else {
+                st += str.charAt(i);
+            }
+        }
+        System.out.println(st);
     }
 }
 
 public class ReplaceDollar {
-public static void main(String[] args) {
-    Scanner sc=new Scanner(System.in);
-    System.out.println("Enter String");
-    ReplaceD ob=new ReplaceD();
-    ob.getString(sc.nextLine());
-    ob.replaced();
-    
-}
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter String");
+        ReplaceD ob = new ReplaceD();
+        ob.getString(sc.nextLine());
+        ob.replaced();
+
+    }
 }
