@@ -7,14 +7,15 @@ class reverse {
         this.str=str;
 
     }
-    String setString(){
+   /* String setString(){
         return str;
-    }
+    }*/
 
-    String reverseString() {
+    String reverseString()
+     {
         String st = "";
-        for (int i = str.length() - 1; i >= 0; i--) {
-            st = str.charAt(i) + st;
+        for (int i = (str.length() - 1); i >= 0; i--) {
+            st =st+ str.charAt(i);
         }
         return st;
     }

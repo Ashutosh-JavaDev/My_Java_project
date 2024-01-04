@@ -14,5 +14,6 @@ public class Reverse {
         System.out.println("Enter the sentence");
         String str = sc.nextLine();
         reverse(str);
+        System.out.println();
     }
 }
