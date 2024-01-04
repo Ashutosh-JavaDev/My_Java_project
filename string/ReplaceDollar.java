@@ -8,15 +8,17 @@ class ReplaceD {
     }
 
     void replaced() {
-        String st="";
-        for (int i = 0; i < str.length(); i++) {
-              if (str.charAt(i) == ' ') {
-                st += "$";
-            } else {
-                st += str.charAt(i);
-            }
-        }
-        System.out.println(st);
+        // String st = "";
+        // for (int i = 0; i < str.length(); i++) {
+        //     if (str.charAt(i) == ' ') {
+        //         st += "$";
+        //     } else {
+        //         st += str.charAt(i);
+        //     }
+        // }
+        // System.out.println(st);
+        String replacestr=str.replace(' ', '$');
+        System.out.println(replacestr);
     }
 }
 
