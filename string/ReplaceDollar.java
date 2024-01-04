@@ -8,12 +8,18 @@ class ReplaceD {
     }
 
     void replaced() {
-        for (int i = 0; i < str.length(); i++) {
-            
-        }
+       String st=str.replace(str, "$");
+       System.out.println(st);
     }
 }
 
 public class ReplaceDollar {
-
+public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter String");
+    ReplaceD ob=new ReplaceD();
+    ob.getString(sc.nextLine());
+    ob.replaced();
+    
+}
 }
