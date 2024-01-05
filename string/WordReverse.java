@@ -20,6 +20,7 @@ class wordReverse {
 
 public class WordReverse {
     public static void main(String[]args){
-        
+        wordReverse ob=new wordReverse();
+        ob.wordRev();
     }
 }
