@@ -5,6 +5,8 @@ class wordReverse {
     char ch;
 
     void wordRev() {
+        Scanner sc=new Scanner(System.in);
+        str=sc.nextLine();
         for (int i = str.length()-1; i >=0; i--) {
             if(str.charAt(i)!=' '){
                 st=st+str.charAt(i);
@@ -17,5 +19,7 @@ class wordReverse {
 }
 
 public class WordReverse {
-
+    public static void main(String[]args){
+        
+    }
 }
