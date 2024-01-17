@@ -5,7 +5,7 @@ class spacesCount {
         int c=1;
         char ch[]=str.toCharArray();
         for(int i=0;i<str.length();i++){
-               if(ch[i].equals('') && ch[i+1]!=' '){
+               if(ch[i]==(' ') && ch[i+1]!=' '){
                 c++;
                }       
             
@@ -16,5 +16,8 @@ class spacesCount {
 }
 
 public class countSpaces {
-
+public static void main(String[] args) {
+    spacesCount ob=new spacesCount();
+    ob.splitsSpaces("I am Full Stack  Sanatani Software Engineer");
+}
 }
