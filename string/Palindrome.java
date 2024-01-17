@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 class Check {
     void palin(String str) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter String");
-        str = sc.nextLine();
+       
         char ch;
         String sp = "";
         for (int i = str.length() - 1; i >= 0; i--) {
@@ -21,5 +19,11 @@ class Check {
 }
 
 public class Palindrome {
-
+ public static void main(String[] args) {
+    Check ob=new Check();
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter String");
+    String str = sc.nextLine();
+    ob.palin(str);
+ }
 }
