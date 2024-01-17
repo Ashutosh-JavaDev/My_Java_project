@@ -11,5 +11,10 @@ class vowelCheck{
     }    
 }
 public class deleteAllVowel {
-    
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        vowelCheck ob=new vowelCheck();
+        ob.disp("apple");
+
+    }
 }
