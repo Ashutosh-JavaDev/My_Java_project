@@ -1,6 +1,15 @@
 import java.util.Scanner;
 import java.lang.String;
 class asc{
+    void disp(String str[],int size){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the size of the Array");
+         size=sc.nextInt();
+         str=new String[size];
+         for(int i=0;i<size;i++){
+            str[i]=sc.nextLine();
+         }
+    }
     void order(String str[],int size){   
         for(int i=0;i<size;i++){
             for(int j=i+1;j<size-i-1;j++){
@@ -19,5 +28,8 @@ class asc{
     }
 }
 public class ascending {
-    
+    public static void main(String[] args) {
+        asc ob=new asc();
+      
+    }
 }
