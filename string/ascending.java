@@ -14,7 +14,7 @@ class asc{
         disp(str, size); 
         for(int i=0;i<size;i++){
             for(int j=i+1;j<size-i-1;j++){
-                if(str[i]>str[j]){
+                if(str[i].compareTo(str[j])>0){
                     String temp=str[i];
                     str[i]=str[j];
                     str[j]=temp;
