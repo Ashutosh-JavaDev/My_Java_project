@@ -7,38 +7,38 @@ class numTochar{
         ch=num.charAt(i);
         switch(ch){
             case '1':
-            st1+="One";
+            st1+="One"+" ";
             break;
             case '2':
-            st1+="Two";
+            st1+="Two"+" ";
             break;
             case '3':
-            st1+="Three";
+            st1+="Three"+" ";
             break;
             case '4':
-            st1+="Four";
+            st1+="Four"+" ";
             break;
             case '5':
-            st1+="Five";
+            st1+="Five"+" ";
             break;
             case '6':
-            st1+="Six";
+            st1+="Six"+" ";
             break;
             case '7':
-            st1+="Seven";
+            st1+="Seven"+" ";
             break;
             case '8':
-            st1+="Eight";
+            st1+="Eight"+" ";
             break;
             case '9':
-            st1+="Nine";
+            st1+="Nine"+" ";
             break;
             default:
             System.out.println("Invalid Press");
             break;
         }
        }
-       System.out.println("In String");
+       System.out.println("In String :"+st1);
     }
 }
 public class numberToString {
