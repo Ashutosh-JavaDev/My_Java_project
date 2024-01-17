@@ -3,9 +3,7 @@ import java.lang.String;
 class asc{
     void disp(String str[],int size){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the size of the Array");
-         size=sc.nextInt();
-         str=new String[size];
+        System.out.println("Enter String Element");
          for(int i=0;i<size;i++){
             str[i]=sc.nextLine();
          }
@@ -13,7 +11,7 @@ class asc{
     void order(String str[],int size){  
         disp(str, size); 
         for(int i=0;i<size;i++){
-            for(int j=i+1;j<size-i-1;j++){
+            for(int j=i+1;j<size;j++){
                 if(str[i].compareTo(str[j])>0){
                     String temp=str[i];
                     str[i]=str[j];
@@ -31,7 +29,8 @@ class asc{
 public class ascending {
     public static void main(String[] args) {
         asc ob=new asc();
-        String str[]=new String[5];
-        ob.order(str, 5);
+        int size=5;
+        String str[]=new String[size];
+        ob.order(str, size);
     }
 }
