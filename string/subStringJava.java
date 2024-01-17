@@ -1,8 +1,10 @@
 import java.util.Scanner;
 class subStr{
     void stringCheck(String str){
-        String newStr=str.substring(3);
-        System.out.println(newStr);
+        char ch[]=str.toCharArray();
+        for(int i=0;i<str.length();i++){
+           
+        }
     }
 }
 public class subStringJava {
