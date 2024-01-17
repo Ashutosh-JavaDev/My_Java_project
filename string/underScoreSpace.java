@@ -2,6 +2,7 @@ import java.util.Scanner;
 class replaceUnderscore{
     void checkDisp(String str){
         String newString=str.replace(" ", "_");
+        System.out.println(newString);
     }    
 }
 public class underScoreSpace {
