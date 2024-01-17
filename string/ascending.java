@@ -10,7 +10,8 @@ class asc{
             str[i]=sc.nextLine();
          }
     }
-    void order(String str[],int size){   
+    void order(String str[],int size){  
+        disp(str, size); 
         for(int i=0;i<size;i++){
             for(int j=i+1;j<size-i-1;j++){
                 if(str[i]>str[j]){
@@ -30,6 +31,7 @@ class asc{
 public class ascending {
     public static void main(String[] args) {
         asc ob=new asc();
-      
+        String str[]=new String[5];
+        ob.order(str, 5);
     }
 }
