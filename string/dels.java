@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Check {
+class ews {
     void palin(String str) {
        
         char ch;
@@ -9,18 +9,18 @@ class Check {
             ch = str.charAt(i);
             sp+=ch;
         }
-        if(sp.equals(str)){
+        if(sp.equalsIgnoreCase(str)){
             System.out.println("String is Palindrome");
         }
         else{
-            System.out.println("String ids not palindrome");
+            System.out.println("String is not palindrome");
         }
     }
 }
 
-public class Palindrome {
+public class dels {
  public static void main(String[] args) {
-    Check ob=new Check();
+    ews ob=new ews();
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter String");
     String str = sc.nextLine();
