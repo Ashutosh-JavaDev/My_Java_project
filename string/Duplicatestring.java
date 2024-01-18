@@ -26,7 +26,7 @@ class subStr {
     }
 }
 
-public class subStringJava {
+public class Duplicatestring {
     public static void main(String[] args) {
         subStr ob = new subStr();
         ob.stringCheck(" Every Hii");
