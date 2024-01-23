@@ -1,3 +1,4 @@
+package java_function;
 import java.util.*;
 
 public class Diamond {
