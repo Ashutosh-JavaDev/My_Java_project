@@ -16,5 +16,11 @@ class vowelPrint {
 }
 
 public class PrintVowel {
-
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        vowelPrint ob=new vowelPrint();
+        System.out.print("Enter String: ");
+        String str=sc.nextLine();
+        ob.printvowel(str);
+    }
 }
