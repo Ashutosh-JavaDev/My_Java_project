@@ -11,6 +11,7 @@ class vowelPrint {
                 st = st + ch;
             }
         }
+        System.out.println("New String: "+st);
     }
 }
 
