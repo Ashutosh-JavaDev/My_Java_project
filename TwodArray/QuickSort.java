@@ -1,8 +1,8 @@
 class quick{
     int quickSorting(int arr[],int low,int high){
-        int pivot=high;
+        int pivot=arr[high];
         int i=low-1;
-        for(int j=0;j<high;j++){
+        for(int j=low;j<high;j++){
             if(arr[j]<pivot){
                 i++;
                 int temp=arr[i];
@@ -13,15 +13,15 @@ class quick{
         i++;
         int temp=arr[i];
         arr[i]=pivot;
-        pivot=temp;
+        arr[high]=temp;
         return i;
     }
     void recursiveQuick(int arr[],int low,int high){
 
         if(low<high){
             int recInd=quickSorting(arr,low,high);
+            recursiveQuick(arr, low, recInd-1);
             recursiveQuick(arr, recInd+1, high);
-            recursiveQuick(arr, low, recInd);
         }
     }
 }
