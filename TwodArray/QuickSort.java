@@ -32,5 +32,9 @@ public class QuickSort {
     int n=arr.length;
     ob.recursiveQuick(arr, 0, n-1);
     System.out.println("Array After Sort");
+    for(int i=0;i<n;i++){
+        System.out.print(arr[i]+" ");
+    }
+    
  }   
 }
