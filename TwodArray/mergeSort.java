@@ -20,6 +20,17 @@ class merging{
             arr[j]=mergeArray[i];
         }
     }
-}public class mergeSort {
-    
+    void SortMergeArrray(int arr[],int start,int end,int mergeArray[]){
+        if(start<end){
+            int mid=start+(end-start)/2;
+            SortMergeArrray(arr, start, mid, mergeArray);
+            SortMergeArrray(arr, start, mid+1, mergeArray);
+            sorting(arr, start, end, mergeArray);
+        }
+    }
+}
+public class mergeSort {
+    public static void main(String[] args) {
+        
+    }    
 }
