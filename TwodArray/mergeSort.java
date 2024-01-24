@@ -31,6 +31,14 @@ class merging{
 }
 public class mergeSort {
     public static void main(String[] args) {
-        
+        merging ob=new merging();
+        int arr[]={23,43,12,53,24,645,36,90};
+        int mergeArray[]=new int[arr.length];
+        ob.SortMergeArrray(arr, 0, arr.length-1, mergeArray);
+        System.out.println("Array After Sort");
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i]+" ");
+        }
+        System.out.println();
     }    
 }
