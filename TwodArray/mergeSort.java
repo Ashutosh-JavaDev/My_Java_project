@@ -24,7 +24,7 @@ class merging{
         if(start<end){
             int mid=start+(end-start)/2;
             SortMergeArrray(arr, start, mid, mergeArray);
-            SortMergeArrray(arr, start, mid+1, mergeArray);
+            SortMergeArrray(arr, mid+1, end, mergeArray);
             sorting(arr, start, end, mergeArray);
         }
     }
