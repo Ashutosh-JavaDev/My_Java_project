@@ -10,6 +10,10 @@ class quick{
                 arr[j]=temp;
             }
         }
+        i++;
+        int temp=arr[i];
+        arr[i]=pivot;
+        pivot=temp;
         return i;
     }
     void recursiveQuick(int arr[],int low,int high){
