@@ -24,6 +24,13 @@ class quick{
             recursiveQuick(arr, low, recInd);
         }
     }
-}public class QuickSort {
-    
+}
+public class QuickSort {
+ public static void main(String[] args) {
+    quick ob=new quick();
+    int arr[]={32,23,53,14,65,24,312,67,87,68};
+    int n=arr.length;
+    ob.recursiveQuick(arr, 0, n-1);
+    System.out.println("Array After Sort");
+ }   
 }
