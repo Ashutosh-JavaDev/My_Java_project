@@ -10,7 +10,15 @@ class merging{
                 mergeArray[k++]=arr[j++];
             }
         }
-
+        while(i<=mid){
+            mergeArray[k++]=arr[i++];
+        }
+        while(j<=end){
+            mergeArray[k++]=arr[j++];
+        }
+        for(i=0,j=start;i<k;i++,j++){
+            arr[j]=mergeArray[i];
+        }
     }
 }public class mergeSort {
     
