@@ -1,4 +1,5 @@
 class revTriangle{
+    
     void revTri(int i,int k){
 
     }
