@@ -16,5 +16,8 @@ class Triangle{
         }
     }
 }public class printTriangle {
-    
+   public static void main(String[] args) {
+    Triangle ob=new Triangle();
+    ob.TrianglePrint(1, 1);
+   } 
 }
