@@ -58,6 +58,7 @@ class Asterik{
 
             }
         }
+
     }
     public class printTriangle{
         public static void main(String[] args) {
