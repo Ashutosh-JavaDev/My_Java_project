@@ -9,14 +9,14 @@ public class Diamond {
             }
             System.out.println();
         }
-        for (int i = 4; i >= 1; i--) {
-            for (int k = 4; k >= i; k--) {
-                System.out.print(" ");
-            }
-            for (int j = 1; j < i * 2; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+        // for (int i = 4; i >= 1; i--) {
+        //     for (int k = 4; k >= i; k--) {
+        //         System.out.print(" ");
+        //     }
+        //     for (int j = 1; j < i * 2; j++) {
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
     }
 }
