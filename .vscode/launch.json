@@ -6,6 +6,195 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Diamond",
+            "request": "launch",
+            "mainClass": "Diamond",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "TrianglePattern",
+            "request": "launch",
+            "mainClass": "Loop.TrianglePattern",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "printTriangle",
+            "request": "launch",
+            "mainClass": "printTriangle",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "mergeSort",
+            "request": "launch",
+            "mainClass": "mergeSort",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "PrintVowel",
+            "request": "launch",
+            "mainClass": "PrintVowel",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "underScoreSpace",
+            "request": "launch",
+            "mainClass": "underScoreSpace",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "deleteAllVowel",
+            "request": "launch",
+            "mainClass": "deleteAllVowel",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "numberToString",
+            "request": "launch",
+            "mainClass": "numberToString",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "subStringJava",
+            "request": "launch",
+            "mainClass": "subStringJava",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "countSpaces",
+            "request": "launch",
+            "mainClass": "countSpaces",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "ascending",
+            "request": "launch",
+            "mainClass": "ascending",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "dels",
+            "request": "launch",
+            "mainClass": "dels",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "merge_array",
+            "request": "launch",
+            "mainClass": "merge_array",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "WordReverse",
+            "request": "launch",
+            "mainClass": "WordReverse",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "ReplaceDollar",
+            "request": "launch",
+            "mainClass": "ReplaceDollar",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "CountVowel",
+            "request": "launch",
+            "mainClass": "CountVowel",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "funct",
+            "request": "launch",
+            "mainClass": "funct",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "stringReverse",
+            "request": "launch",
+            "mainClass": "stringReverse",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "CountWord",
+            "request": "launch",
+            "mainClass": "CountWord",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "ProductMatrix",
+            "request": "launch",
+            "mainClass": "ProductMatrix",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "CountSpace",
+            "request": "launch",
+            "mainClass": "CountSpace",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchTree",
+            "request": "launch",
+            "mainClass": "BinarySearchTree",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "Management",
+            "request": "launch",
+            "mainClass": "Management",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "LinearSearch",
+            "projectName": "My_Program_ff3ac0a3"
+        },
+        {
+            "type": "java",
             "name": "CheckArraySory",
             "request": "launch",
             "mainClass": "CheckArraySory",
