@@ -5,7 +5,12 @@ public class Diamond {
                     System.out.print(" ");
                 }
                 for(int j=1;j<i*2;j++){
+                    if(i+j%2==0){
                     System.out.print("*");
+                    }
+                    else{
+                        System.out.print(" ");
+                    }
                 }
                 System.out.println();
             }
