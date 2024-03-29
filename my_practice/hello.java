@@ -3,10 +3,10 @@ class sorting{
 	public void sort(int arr[],int size){
 		for(int i=0;i<size-1;i++){
 			for(int j=i+1;j<size-i-1;j++){
-				if(arr[i]>arr[i+1]){
-					int temp=arr[i];
-					arr[i]=arr[i+1];
-					arr[i+1]=temp;
+				if(arr[j]>arr[j+1]){
+					int temp=arr[j];
+					arr[j]=arr[j+1];
+					arr[j+1]=temp;
 				}
 			}
 			
