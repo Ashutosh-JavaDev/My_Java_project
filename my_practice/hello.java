@@ -2,7 +2,7 @@ import java.util.Scanner;
 class sorting{
 	public void sort(int arr[],int size){
 		for(int i=0;i<size-1;i++){
-			for(int j=i+1;j<size-i-1;j++){
+			for(int j=0;j<size-i-1;j++){
 				if(arr[j]>arr[j+1]){
 					int temp=arr[j];
 					arr[j]=arr[j+1];
