@@ -2,11 +2,11 @@ import java.util.Scanner;
 class sorting{
 	public void sort(int arr[],int size){
 		for(int i=0;i<size-1;i++){
-			for(int j=i+1;j<size;j++){
-				if(arr[i]>arr[j]){
+			for(int j=i+1;j<size-i-1;j++){
+				if(arr[i]>arr[i+1]){
 					int temp=arr[i];
-					arr[i]=arr[j];
-					arr[j]=temp;
+					arr[i]=arr[i+1];
+					arr[i+1]=temp;
 				}
 			}
 			
