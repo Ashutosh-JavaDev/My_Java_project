@@ -27,6 +27,7 @@ public class hello{
 		 for(int i=0;i<size;i++){
 			arr[i]=sc.nextInt();
 		 }
-		 
+		 sorting ob=new sorting();
+		 ob.sort(arr, size);
 	}
 }
