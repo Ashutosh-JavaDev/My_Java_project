@@ -7,7 +7,6 @@ class password {
         String create;
         String newCreate;
         Scanner scc = new Scanner(System.in);
-        int Ascii = 0;
         System.out.println(
                 "Password must Contain a UpperCase, a LowerCase, Numeric Digit, Specific Symbols,should be 8-25 letters.");
         System.out.print("Create Your Password: ");
@@ -22,8 +21,8 @@ class password {
             if (len >= 8 && len <= 25) {
                 for (int i = 0; i < len; i++) {
                     char ch = create.charAt(i);
-                    Ascii = (int) ch;
-                    if (Ascii >= 64 && Ascii <= 90) {
+                 int   Ascii = (int) ch;
+                    if (Ascii >= 65 && Ascii <= 90) {
                         upper++;
                     } else if (Ascii >= 97 && Ascii <= 122) {
                         lower++;
@@ -40,6 +39,7 @@ class password {
                     newCreate = scc.nextLine();
                     if (newCreate.equals(create)) {
                         result = true;
+                        break;
                     } else {
                         result = false;
                         break;
