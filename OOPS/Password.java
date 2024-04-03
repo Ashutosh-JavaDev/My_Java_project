@@ -1,8 +1,11 @@
 import java.util.Scanner;
 
 class password {
-    public static boolean writePassword(String create, String newCreate) {
+
+    public static boolean writePassword() {
         boolean result = false;
+        String create;
+        String newCreate;
         Scanner scc = new Scanner(System.in);
         int Ascii = 0;
         System.out.println(
@@ -28,10 +31,9 @@ class password {
         System.out.print("Re-Enter Your Password: ");
         newCreate = scc.nextLine();
         if (newCreate.equals(create)) {
-            System.out.println("Password Created Successfully");
             result = true;
         } else {
-            System.out.println("Password Not Matched!.");
+            result = false;
         }
         return result;
     }
@@ -39,6 +41,7 @@ class password {
 
 public class Password {
     public static void main(String[] args) {
-
+        password ob=new password();
+        ob.W
     }
 }
