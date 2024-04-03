@@ -42,6 +42,12 @@ class password {
 public class Password {
     public static void main(String[] args) {
         password ob=new password();
-        ob.W
+        boolean answer=ob.writePassword();
+        if(answer==true){
+            System.out.println("Password Created Successfully.");
+        }
+        else{
+            System.out.println("Password Not Created!.");
+        }
     }
 }
