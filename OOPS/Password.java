@@ -3,6 +3,7 @@ import java.util.Scanner;
 class password {
     public static String writePassword(String create, String newCreate) {
         Scanner scc = new Scanner(System.in);
+        int Ascii;
         System.out.println("Password must Contain a UpperCase, a LowerCase, Numeric Digit, Specific Symbols,should be 8-16 letters.");
         System.out.print("Create Your Password: ");
         create = scc.nextLine();
@@ -10,7 +11,9 @@ class password {
         if(len>=8 && len<=16){
             for(int i=0;i<len;i++){
                 char ch=create.charAt(i);
+                Ascii=(int)ch;
             }
+
         }
         else{
             System.out.println("Password must contains 8-16 words.");
