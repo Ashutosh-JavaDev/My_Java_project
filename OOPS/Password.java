@@ -9,31 +9,35 @@ class password {
         Scanner scc = new Scanner(System.in);
         int Ascii = 0;
         System.out.println(
-                "Password must Contain a UpperCase, a LowerCase, Numeric Digit, Specific Symbols,should be 8-16 letters.");
+                "Password must Contain a UpperCase, a LowerCase, Numeric Digit, Specific Symbols,should be 8-25 letters.");
         System.out.print("Create Your Password: ");
         create = scc.nextLine();
         int len = create.length();
-        if (len >= 8 && len <= 16) {
-            for (int i = 0; i < len; i++) {
-                char ch = create.charAt(i);
-                Ascii = (int) ch;
-            }
-            if (Ascii >= 64 && Ascii <= 90 && Ascii >= 97 && Ascii <= 122 && Ascii == 32) {
-                System.out.println("Password Contains all the Criteria.");
-            } else {
-                System.out.println(
-                        "Password must Contain a UpperCase, a LowerCase, Numeric Digit, Specific Symbols,should be 8-16 letters.");
-            }
+        while (true) {
+            if (len >= 8 && len <= 25) {
+                for (int i = 0; i < len; i++) {
+                    char ch = create.charAt(i);
+                    Ascii = (int) ch;
+                }
+                if (Ascii >= 64 && Ascii <= 90 && Ascii >= 97 && Ascii <= 122 && Ascii == 32) {
+                    System.out.println("Password Contains all the Criteria.");
+                } else {
+                    System.out.println("Password must Contain a UpperCase, a LowerCase, Numeric Digit, Specific Symbols,should be 8-16 letters.");
+                    break;
+                }
 
-        } else {
-            System.out.println("Password must contains 8-16 words.");
-        }
-        System.out.print("Re-Enter Your Password: ");
-        newCreate = scc.nextLine();
-        if (newCreate.equals(create)) {
-            result = true;
-        } else {
-            result = false;
+            } else {
+                System.out.println("Password must contains 8-25 words.");
+                break;
+            }
+            System.out.print("Re-Enter Your Password: ");
+            newCreate = scc.nextLine();
+            if (newCreate.equals(create)) {
+                result = true;
+            } else {
+                result = false;
+                break;
+            }
         }
         return result;
     }
@@ -41,12 +45,11 @@ class password {
 
 public class Password {
     public static void main(String[] args) {
-        password ob=new password();
-        boolean answer=ob.writePassword();
-        if(answer==true){
+        password ob = new password();
+        boolean answer = ob.writePassword();
+        if (answer == true) {
             System.out.println("Password Created Successfully.");
-        }
-        else{
+        } else {
             System.out.println("Password Not Created!.");
         }
     }
