@@ -21,6 +21,14 @@ class password {
                 }
                 if (Ascii >= 64 && Ascii <= 90 && Ascii >= 97 && Ascii <= 122 && Ascii == 32) {
                     System.out.println("Password Contains all the Criteria.");
+                    System.out.print("Re-Enter Your Password: ");
+                    newCreate = scc.nextLine();
+                    if (newCreate.equals(create)) {
+                        result = true;
+                    } else {
+                        result = false;
+                        break;
+                    }
                 } else {
                     System.out.println("Password must Contain a UpperCase, a LowerCase, Numeric Digit, Specific Symbols,should be 8-16 letters.");
                     break;
@@ -30,14 +38,7 @@ class password {
                 System.out.println("Password must contains 8-25 words.");
                 break;
             }
-            System.out.print("Re-Enter Your Password: ");
-            newCreate = scc.nextLine();
-            if (newCreate.equals(create)) {
-                result = true;
-            } else {
-                result = false;
-                break;
-            }
+
         }
         return result;
     }
