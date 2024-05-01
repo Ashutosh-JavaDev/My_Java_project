@@ -28,5 +28,10 @@ class longword {
 public class LongestWord {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        longword ob=new longword();
+        System.out.println("Enter String");
+        String  str=sc.nextLine();
+        String st=ob.lingWord(str);
+        System.out.println(st);
     }
 }
