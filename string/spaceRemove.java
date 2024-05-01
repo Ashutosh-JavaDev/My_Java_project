@@ -7,10 +7,8 @@ class remSpace {
             if (ch != ' ') {
                 System.out.print(ch);
             }
-            else{
-                i++;
-            }
         }
+        System.out.println();
     }
 }
 
