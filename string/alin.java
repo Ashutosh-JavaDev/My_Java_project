@@ -1,12 +1,13 @@
 import java.util.Scanner;
-class palin{
+class Alin{
     boolean check(String str){
         boolean result=true;
         String st="";
-        for(int i=str.length();i<=0;i--){
+        for(int i=str.length()-1;i<=0;i--){
             char ch=str.charAt(i);
             st+=ch;
         }
+        System.out.println(st);
         if(str.equals(st)){
             result=true;
         }
@@ -16,12 +17,12 @@ class palin{
         return result;
     }
 }
-public class Palindrome {
+public class alin {
     public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     System.out.println("Enter the String");
     String str=sc.nextLine();
-    palin ob=new palin();
+    Alin ob=new Alin();
     boolean res=ob.check(str);
     System.out.println("Result: "+res);
 
