@@ -3,7 +3,7 @@ class Alin{
     boolean check(String str){
         boolean result=true;
         String st="";
-        for(int i=str.length()-1;i<=0;i--){
+        for(int i=str.length()-1;i>=0;i--){
             char ch=str.charAt(i);
             st+=ch;
         }
