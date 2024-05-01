@@ -18,6 +18,12 @@ class palin{
 }
 public class Palindrome {
     public static void main(String[] args) {
-        
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the String");
+    String str=sc.nextLine();
+    palin ob=new palin();
+    boolean res=ob.check(str);
+    System.out.println("Result: "+res);
+
     }
 }
