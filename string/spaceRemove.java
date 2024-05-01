@@ -1,8 +1,7 @@
 import java.util.Scanner;
 class remSpace{
     void sapceRem(String str){
-        String st=str.trim();
-        System.out.println(st);
+        
     }
 }
 public class spaceRemove {
