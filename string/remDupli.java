@@ -2,9 +2,14 @@ import java.util.Scanner;
 
 class removeDupli {
     void check(String str) {
+        int count=0;
         for (int i = 0; i < str.length(); i++) {
             for (int j = i + 1; j < str.length(); j++) {
-
+                char ch=str.charAt(i);
+                char sch=str.charAt(j);
+                if(ch==sch){
+                    count++;
+                }
             }
 
         }
