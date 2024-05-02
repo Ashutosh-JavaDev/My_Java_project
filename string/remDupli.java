@@ -10,9 +10,6 @@ class removeDupli {
                 if(ch==sch){
                     count++;
                 }
-                else{
-                    System.out.print(ch);
-                }
             }
 
         }
