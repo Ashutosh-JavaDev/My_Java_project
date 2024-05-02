@@ -13,6 +13,7 @@ class removeDupli {
             }
 
         }
+        System.out.println("Total Duplicate: "+count);
     }
 }
 
