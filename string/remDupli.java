@@ -2,6 +2,7 @@ import java.util.Scanner;
 class removeDupli{
     void check(String str){
         for(int i=0;i<str.length();i++){
+            char ch=str.charAt(i);
             
         }
     }
