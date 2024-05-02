@@ -10,9 +10,13 @@ class removeDupli {
                 if(ch==sch){
                     count++;
                 }
+                else{
+                    System.out.print(ch);
+                }
             }
 
         }
+        System.out.println();
         System.out.println("Total Duplicate: "+count);
     }
 }
