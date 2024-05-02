@@ -10,5 +10,6 @@ public class remDupli {
         removeDupli ob=new removeDupli();
         System.out.println("Enter the String");
         String str=sc.nextLine();
+        ob.check(str);
     }
 }
