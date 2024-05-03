@@ -17,7 +17,7 @@ class removeDupli {
             }
 
         }
-        System.out.print(ch);
+        System.out.print(st);
         System.out.println();
         System.out.println("Total Duplicate: "+count);
     }
