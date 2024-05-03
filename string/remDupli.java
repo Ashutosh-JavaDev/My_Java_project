@@ -5,10 +5,12 @@ class removeDupli {
         int count=0;
         char ch=' ';
         char sch=' ';
+        String st=" ";
         for (int i = 0; i < str.length(); i++) {
             for (int j = i + 1; j < str.length(); j++) {
                  ch=str.charAt(i);
                  sch=str.charAt(j);
+                 st+=ch;
                 if(ch==sch){
                     count++;
                 }
