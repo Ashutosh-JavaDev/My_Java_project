@@ -1,32 +1,26 @@
 import java.util.Scanner;
 
-class removeDupli {
+class RemoveDuplicates {
     void check(String str) {
-        int count=0;
-        char ch=' ';
-        char sch=' ';
-        String st=" ";
+        int count = 0;
+        String st = "";
         for (int i = 0; i < str.length(); i++) {
-            for (int j = i + 1; j < str.length(); j++) {
-                 ch=str.charAt(i);
-                 sch=str.charAt(j);
-                 st+=ch;
-                if(ch==sch){
-                    count++;
-                }
+            char ch = str.charAt(i);
+            if (st.indexOf(ch) == -1) { // Check if the character is not already in st
+                st += ch;
+            } else {
+                count++; // Increment count for duplicates
             }
-
         }
-        System.out.print(st);
-        System.out.println();
-        System.out.println("Total Duplicate: "+count);
+        System.out.println(st);
+        System.out.println("Total Duplicate: " + count);
     }
 }
 
 public class remDupli {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        removeDupli ob = new removeDupli();
+        RemoveDuplicates ob = new RemoveDuplicates();
         System.out.println("Enter the String");
         String str = sc.nextLine();
         ob.check(str);
