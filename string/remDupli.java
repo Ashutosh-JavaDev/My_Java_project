@@ -7,14 +7,15 @@ class removeDupli {
         char sch=' ';
         for (int i = 0; i < str.length(); i++) {
             for (int j = i + 1; j < str.length(); j++) {
-                char ch=str.charAt(i);
-                char sch=str.charAt(j);
+                 ch=str.charAt(i);
+                 sch=str.charAt(j);
                 if(ch==sch){
                     count++;
                 }
             }
 
         }
+        System.out.print(ch);
         System.out.println();
         System.out.println("Total Duplicate: "+count);
     }
