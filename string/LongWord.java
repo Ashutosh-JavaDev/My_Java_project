@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class lonngwrd{
-    public static String check(String str){
+   String check(String str){
         String longest="";
         String shortest="";
         int max=0;
