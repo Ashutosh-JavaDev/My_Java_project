@@ -32,7 +32,7 @@ public class LongWord {
         String str = sc.nextLine();
         lonngwrd ob = new lonngwrd();
         String res = ob.check(str);
-        System.out.println("Longest Word: " + res);
+        System.out.println("Longest Word:" + res);
 
     }
 }
