@@ -9,6 +9,16 @@ class lonngwrd{
             if(ch!=' '){
                 shortest+=ch;
             }
+            else{
+                if(shortest.length()>max){
+                    max=shortest.length();
+                    longest=shortest;
+                }
+            }
+            shortest=" ";
+        }
+        if(shortest.length()>max){
+            longest=shortest;
         }
         return longest;
     }
