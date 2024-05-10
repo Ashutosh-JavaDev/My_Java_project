@@ -5,7 +5,7 @@ class findsPairs{
         for(int i=0;i<size;i++){
             for(int j=i+1;j<size;j++){
                 if(arr[i]+arr[j]==total){
-                    System.out.println("arr[ "+i+" ]+ arr[ " +j+ "] = "+total);
+                    System.out.println("arr[ "+arr[i]+" ]+ arr[ " +arr[j]+ " ] = "+total);
                     count++;
                 }
             }
