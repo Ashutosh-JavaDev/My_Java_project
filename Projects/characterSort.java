@@ -11,4 +11,9 @@ public class characterSort {
             }
         return new String(charArray);
     }
+    public static void main(String[] args) {
+        String str="Ashutosh";
+        String res=input(str);
+        System.out.println(res);
+    }
 }
