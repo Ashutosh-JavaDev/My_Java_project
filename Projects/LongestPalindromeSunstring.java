@@ -16,6 +16,7 @@ public class LongestPalindromeSunstring {
                         max = currentMax;
                         maximum = str[i];
                     }
+                    currentMax=0;
                 }
             }
         }
