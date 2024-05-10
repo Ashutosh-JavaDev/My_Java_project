@@ -14,6 +14,6 @@ public class characterSort {
     public static void main(String[] args) {
         String str="Ashutosh";
         String res=input(str);
-        System.out.println(res);
+        System.out.print("Sorted "+str+": "+res);
     }
 }
