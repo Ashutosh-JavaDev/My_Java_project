@@ -27,6 +27,7 @@ public class FindAllPairs {
         }
         System.out.println("Enter the Target value you found in the Array");
         int total=sc.nextInt();
-        
+        findsPairs ob=new findsPairs();
+        ob.selectPairs(arr, size, total);
     }
 }
