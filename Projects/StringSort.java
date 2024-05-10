@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class StringSort {
     public static void StringSo(String str[], int size) {
         for (int i = 0; i < size - 1; i++) {
@@ -13,5 +14,17 @@ public class StringSort {
         for(int i=0;i<size;i++){
             System.out.println(str[i]);
         }
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+
+        System.out.println("Enter the Size of the String");
+        int size=sc.nextInt();
+        String str[]=new String[size];
+        System.out.println("Enter the String");
+        for(int i=0;i<size;i++){
+            str[i]=sc.nextLine();
+        }
+        StringSo(str, size);
     }
 }
