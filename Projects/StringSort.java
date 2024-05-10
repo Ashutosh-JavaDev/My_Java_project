@@ -20,6 +20,7 @@ public class StringSort {
 
         System.out.println("Enter the Size of the String");
         int size=sc.nextInt();
+        sc.nextLine();
         String str[]=new String[size];
         System.out.println("Enter the String");
         for(int i=0;i<size;i++){
