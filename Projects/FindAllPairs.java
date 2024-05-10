@@ -11,7 +11,7 @@ class findsPairs{
             }
         }
         if(count==0){
-            System.out.println("");
+            System.out.println("There is no Paor Found in the Array");
         }
     }
 }
