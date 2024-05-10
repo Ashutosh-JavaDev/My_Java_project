@@ -22,4 +22,15 @@ public class LongestPalindromeSunstring {
         }
         return maximum;
     }
+    public  static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the size of the String Array");
+        int size=sc.nextInt();
+        String str[]=new String[size];
+        System.out.println("Enter the Values in the String Array");
+        for(int i=0;i<size;i++){
+            str[i]=sc.nextLine();
+        }
+
+    }
 }
