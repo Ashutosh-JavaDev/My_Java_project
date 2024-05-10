@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class LongestPalindromeSubstring {
     public static String MaximumString(String str[], int size) {
         String maximum = "";
@@ -34,5 +35,6 @@ public class LongestPalindromeSubstring {
         }
         String res = MaximumString(str, size);
         System.out.print("Maximum palindrome String: " + res);
+        System.out.println();
     }
 }
