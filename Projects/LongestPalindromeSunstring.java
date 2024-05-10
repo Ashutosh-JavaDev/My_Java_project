@@ -31,6 +31,7 @@ public class LongestPalindromeSunstring {
         for(int i=0;i<size;i++){
             str[i]=sc.nextLine();
         }
-
+        String res=MaximumString(str, size);
+        System.out.print("Maximum palindrome Strng: "+res);
     }
 }
