@@ -8,13 +8,13 @@ public class LongestPalindromeSunstring {
         int max = 0;
         for (int i = 0; i < size; i++) {
             for (int j = str[i].length() - 1; j >= 0; j--) {
-                char ch = str[i].charAt(i);
+                char ch = str[j].charAt(j);
                 st += ch;
                 if (str[j].equalsIgnoreCase(st)) {
                     currentMax = str[j].length();
                     if (currentMax > max) {
                         max = currentMax;
-                        maximum = str[i];
+                        maximum = str[j];
                     }
                     currentMax=0;
                 }
@@ -26,6 +26,7 @@ public class LongestPalindromeSunstring {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the size of the String Array");
         int size=sc.nextInt();
+        sc.nextLine();
         String str[]=new String[size];
         System.out.println("Enter the Values in the String Array");
         for(int i=0;i<size;i++){
