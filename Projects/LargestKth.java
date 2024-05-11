@@ -7,7 +7,7 @@ class findLargest {
         for (int i = 0; i < size; i++) {
             for (int j = i + 1; j < size; j++) {
                 if (arr[i] > arr[j]) {
-                    pos=i;
+                    pos = i;
                     max = arr[i];
                 }
             }
@@ -17,16 +17,17 @@ class findLargest {
 }
 
 public class LargestKth {
-public static void main(String[] args) {
-    Scanner sc=new Scanner(System.in);
-    System.out.println("Enter the siize of the Array");
-    int size=sc.nextInt();
-    int arr[]=new int[size];
-    System.out.println("Enter the Value in the Array");
-    for(int i=0;i<size;i++){
-        arr[i]=sc.nextInt();
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the siize of the Array");
+        int size = sc.nextInt();
+        int arr[] = new int[size];
+        System.out.println("Enter the Value in the Array");
+        for (int i = 0; i < size; i++) {
+            arr[i] = sc.nextInt();
+        }
+        findLargest ob = new findLargest();
+        int res = ob.kValue(arr, size);
+        System.out.println(res);
     }
-    findLargest ob=new findLargest();
-
-}
 }
