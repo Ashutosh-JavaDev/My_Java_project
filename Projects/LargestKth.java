@@ -5,10 +5,10 @@ class findLargest {
         int pos = 0;
         int max = arr[0];
         for (int i = 0; i < size; i++) {
-            for (int j = i + 1; j < size; j++) {
-                if (arr[i] > arr[j]) {
+            for (int j = 0; j < size; j++) {
+                if (arr[i] < arr[j]) {
                     pos = i;
-                    max = arr[i];
+                    max = arr[j];
                 }
             }
         }
@@ -28,6 +28,6 @@ public class LargestKth {
         }
         findLargest ob = new findLargest();
         int res = ob.kValue(arr, size);
-        System.out.println(res);
+        System.out.println("Largest Value Position: "+(1+res));
     }
 }
