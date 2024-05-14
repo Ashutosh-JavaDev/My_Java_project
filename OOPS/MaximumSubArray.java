@@ -7,7 +7,7 @@ class subArraySum {
         for (int i = 0; i < size; i++) {
             for (int j = i + 1; j < size; j++) {
                 sum = arr[i] + arr[j];
-                if (currentSum > sum) {
+                if (sum > currentSum) {
                     System.out.println(arr[i] + " + " + arr[j] + " = " + sum);
                     currentSum = sum;
                 }
