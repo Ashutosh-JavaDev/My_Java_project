@@ -28,5 +28,7 @@ public class MaximumSubArray {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
+        subArraySum ob = new subArraySum();
+        ob.sumSubArray(arr, size);
     }
 }
