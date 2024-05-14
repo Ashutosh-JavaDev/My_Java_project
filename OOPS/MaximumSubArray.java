@@ -24,6 +24,9 @@ public class MaximumSubArray {
         System.out.println("Enter the size of the Array");
         int size = sc.nextInt();
         int arr[] = new int[size];
-
+        System.out.println("Enter the Value in the Array");
+        for (int i = 0; i < size; i++) {
+            arr[i] = sc.nextInt();
+        }
     }
 }
