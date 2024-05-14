@@ -19,5 +19,7 @@ class subArraySum {
 }
 
 public class MaximumSubArray {
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+    }
 }
