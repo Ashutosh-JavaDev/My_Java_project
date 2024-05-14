@@ -22,7 +22,7 @@ class Palindrome {
 public class Array_palindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Palindrome ram = new Palindrome();
+        alin ram = new alin();
         System.out.println("Enter the Number");
         int num = sc.nextInt();
         ram.num = num;
