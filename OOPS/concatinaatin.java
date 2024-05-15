@@ -15,5 +15,9 @@ public class concatinaatin {
         String str = sc.nextLine();
         System.out.print("Enter Second String: ");
         String newStr = sc.nextLine();
+        Concation ob = new Concation();
+        String res = ob.result(str, newStr);
+        System.out.print("New String: " + res);
+        System.out.println();
     }
 }
