@@ -5,8 +5,12 @@ class Concation {
         // String sa = " ";
         // sa = str.concat(" "+st);
         // return sa;
-        String sa=" ";
+        String sa = " ";
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+        }
         return sa;
+
     }
 }
 
