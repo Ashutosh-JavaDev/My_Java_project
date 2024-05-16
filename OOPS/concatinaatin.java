@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 class Concation {
     public static String result(String str, String st) {
-        String sa = " ";
-        sa = str.concat(" "+st);
+        // String sa = " ";
+        // sa = str.concat(" "+st);
+        // return sa;
+        String sa=" ";
         return sa;
     }
 }
