@@ -9,7 +9,6 @@ class Concation {
         for (int i = 0; i < st.length(); i++) {
             char ch = st.charAt(i);
             str += ch;
-            
         }
         return str;
 
