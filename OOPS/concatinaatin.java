@@ -6,12 +6,12 @@ class Concation {
         // sa = str.concat(" "+st);
         // return sa;
         String sa = " ";
-        for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
-            // st += ch;
-            sa=ch+st;
+        for (int i = 0; i < st.length(); i++) {
+            char ch = st.charAt(i);
+            str += ch;
+            
         }
-        return sa;
+        return str;
 
     }
 }
