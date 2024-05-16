@@ -8,7 +8,7 @@ class Concation {
         // String sa = " ";
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-
+            st += ch;
         }
         return st;
 
