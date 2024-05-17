@@ -1,5 +1,7 @@
-import java.util.Scanner;class exten{
-    public void entens(){
+import java.util.Scanner;
+
+public class extension {
+    public void entens() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String");
         String str = sc.nextLine();
@@ -9,7 +11,4 @@ import java.util.Scanner;class exten{
         boolean res = ob.containstring(str, st);
         System.out.println("Result: " + res);
     }
-}
-public class extension {
-    
 }
