@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 class containString {
-    public static boolean containstring(String str,String st) {
+    public static boolean containstring(String str, String st) {
         boolean result = false;
-        if(str.contains(st)){
-            result=true;
+        if (str.contains(st)) {
+            result = true;
         }
         return result;
     }
