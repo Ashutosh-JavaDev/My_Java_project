@@ -19,6 +19,6 @@ public class ContainsString {
         String st=sc.nextLine();
         containString ob=new containString();
         boolean res=ob.containstring(str, st);
-        
+        System.out.println("Result: "+res);
     }
 }
