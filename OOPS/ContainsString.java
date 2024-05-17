@@ -17,6 +17,7 @@ public class ContainsString {
         String str=sc.nextLine();
         System.out.println("Enter the word want to check");
         String st=sc.nextLine();
+        containString ob=new containString();
         
     }
 }
