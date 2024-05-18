@@ -15,6 +15,8 @@ public class endsWith {
         String str=sc.nextLine();
         System.out.println("Enter the String want to check");
         String st=sc.nextLine();
-        
+        EndsWith ob=new EndsWith();
+        boolean res=ob.check(str, st);
+        System.out.println("Result: "+res);
     }
 }
