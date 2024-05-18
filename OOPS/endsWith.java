@@ -1,7 +1,8 @@
 import java.util.Scanner;
 class EndsWith{
-    public void check(String str, String st){
-        
+    public boolean check(String str, String st){
+        boolean result=false;
+        return result;
     }
 }
 public class endsWith {
