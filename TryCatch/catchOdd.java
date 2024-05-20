@@ -21,7 +21,13 @@ public class catchOdd {
         }
         Oddcatching ob = new Oddcatching();
         for (int i = 0; i < size; i++) {
-
+            try{
+                ob.even(arr[i], size);
+                System.out.println(arr[i]+" : is Even");
+            }
+            catch(IllegalArgumentException e){
+                e.printStackTrace();
+            }
         }
     }
 }
