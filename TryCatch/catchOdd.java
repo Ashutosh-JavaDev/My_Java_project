@@ -14,5 +14,7 @@ class Oddcatching{
     }
 }
 public class catchOdd {
-    
+    public static void main(String[] args) {
+        
+    }
 }
