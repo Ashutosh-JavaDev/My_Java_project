@@ -12,6 +12,7 @@ class Oddcatching{
         }
        }
     }
-}public class catchOdd {
+}
+public class catchOdd {
     
 }
