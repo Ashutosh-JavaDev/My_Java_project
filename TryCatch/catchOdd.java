@@ -7,8 +7,16 @@ class Oddcatching {
                 if (arr[i] % 2 == 0) {
                     System.out.println(arr[i]);
                 }
-            } catch (Exception e) {
+            } catch (IllegalArgumentException e) {
                 e.printStackTrace();
+               even(arr, size);
+            }
+        }
+    }
+    public static void even(int arr[],int size){
+        for(int i=0;i<size;i++){
+            if(arr[i]%2!=0){
+               throw new IllegalArgumentException(arr[i]+" : is odd");
             }
         }
     }
