@@ -15,5 +15,6 @@ public static void main(String[] args) {
     System.out.println("Enter the Second String: ");
     String str2=sc.nextLine();
     comparision ob=new comparision();
+    ob.TwoString(str1, str2);
 }
 }
