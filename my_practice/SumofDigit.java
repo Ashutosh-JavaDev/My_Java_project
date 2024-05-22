@@ -18,5 +18,8 @@ class sod {
         for(int i=0;i<size;i++){
             arr[i]=sc.nextInt();
         }
+        sod ob=new sod();
+        int res=ob.sum(arr, size);
+        System.out.println("Result: "+res);
     }
 }
