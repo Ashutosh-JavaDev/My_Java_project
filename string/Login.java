@@ -51,7 +51,9 @@ class loginPage {
     }
     public boolean containNumber(String str){
         boolean res=false;
-        
+        for(char c:str.toCharArray()){
+            
+        }
         return false;
 
     }
