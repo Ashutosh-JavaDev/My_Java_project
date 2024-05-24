@@ -49,6 +49,12 @@ class loginPage {
         }
         return false;
     }
+    public boolean containNumber(String str){
+        boolean res=false;
+        
+        return false;
+
+    }
 }
 
 public class Login {
