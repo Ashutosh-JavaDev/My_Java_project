@@ -10,12 +10,16 @@ class loginPage {
         while (true) {
             Password = sc.nextLine();
             if (Password.length() > 8 && Password.length() < 17) {
-                if(checkUpperLowerCase(Password)){
+                if (checkUpperLowerCase(Password)) {
                     System.out.print("Enter the Password Again: ");
-                    Checkpassword=sc.nextLine();
+                    while (true) {
+                        Checkpassword = sc.nextLine();
+                        if (Password.equals(Checkpassword)) {
+                            System.out.println("Password Mismatched");
+                        }
+                    }
                 }
-            }
-            else{
+            } else {
                 System.out.println("Password must be Have contains 8 to 17 Letters");
             }
         }
