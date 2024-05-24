@@ -52,7 +52,12 @@ class loginPage {
     public boolean containNumber(String str){
         boolean res=false;
         for(char c:str.toCharArray()){
-            
+            if(Character.isDigit(c)){
+                res=true;
+            }
+            if(res){
+               return true; 
+            }
         }
         return false;
 
