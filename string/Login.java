@@ -24,6 +24,8 @@ class loginPage {
                     }
                 } else {
                     System.out.println("Password Must contains one UpperCase and One LowerCase Character and also Contain Number in it!\nTry Again");
+
+                    continue;
                 }
                 break;
             } else {
@@ -61,6 +63,9 @@ class loginPage {
         }
         return false;
 
+    }
+    public void containSymbol(String str){
+        
     }
 }
 
