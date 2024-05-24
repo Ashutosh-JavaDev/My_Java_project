@@ -3,7 +3,6 @@ import java.util.Scanner;
 class loginPage {
     String Password;
     String Checkpassword;
-    int len;
 
     public void checkLength() {
         Scanner sc = new Scanner(System.in);
@@ -11,7 +10,13 @@ class loginPage {
         while (true) {
             Password = sc.nextLine();
             if (Password.length() > 8 && Password.length() < 17) {
-
+                if(checkUpperLowerCase(Password)){
+                    System.out.print("Enter the Password Again: ");
+                    Checkpassword=sc.nextLine();
+                }
+            }
+            else{
+                System.out.println("Password must be Have contains 8 to 17 Letters");
             }
         }
 
