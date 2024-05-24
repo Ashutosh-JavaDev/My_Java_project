@@ -18,16 +18,16 @@ class loginPage {
                             System.out.println("Password Set Successfully");
                             break;
                         } else {
-                            System.out.println("Password Mismatched");
+                            System.out.println("Password Mismatched!\nTry Again");
                             continue;
                         }
                     }
                 } else {
-                    System.out.println("Password Must contains one UpperCase and One LowerCase Character");
+                    System.out.println("Password Must contains one UpperCase and One LowerCase Character!\nTry Again");
                 }
                 break;
             } else {
-                System.out.println("Password must be Have contains 8 to 17 Letters");
+                System.out.println("Password must be Have contains 8 to 17 Letters!\nTry Again");
                 continue;
             }
         }
