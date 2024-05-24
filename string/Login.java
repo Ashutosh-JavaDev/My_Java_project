@@ -24,6 +24,10 @@ class loginPage {
                         }
                     }
                 }
+                else{
+                    System.out.println("Password Must contains one UpperCase and One LowerCase Character");
+                    break;
+                }
             } else {
                 System.out.println("Password must be Have contains 8 to 17 Letters");
             }
