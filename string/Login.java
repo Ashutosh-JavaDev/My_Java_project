@@ -10,7 +10,7 @@ class loginPage {
         while (true) {
             Password = sc.nextLine();
             if (Password.length() > 8 && Password.length() < 17) {
-                if (checkUpperLowerCase(Password)&&containNumber(Password)) {
+                if (checkUpperLowerCase(Password)&&containNumber(Password)&&containSymbol(Password)) {
                     System.out.print("Enter the Password Again: ");
                     while (true) {
                         Checkpassword = sc.nextLine();
@@ -23,7 +23,7 @@ class loginPage {
                         }
                     }
                 } else {
-                    System.out.println("Password Must contains one UpperCase and One LowerCase Character and also Contain Number in it!\nTry Again");
+                    System.out.println("Password Must contains one UpperCase and One LowerCase Character with one Number and Special Symbol in it!\nTry Again");
 
                     continue;
                 }
