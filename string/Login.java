@@ -54,5 +54,6 @@ class loginPage {
 public class Login {
     public static void main(String[]args){
         loginPage ob=new loginPage();
+        ob.checkLength();
     }
 }
