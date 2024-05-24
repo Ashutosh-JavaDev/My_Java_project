@@ -15,7 +15,12 @@ class loginPage {
                     while (true) {
                         Checkpassword = sc.nextLine();
                         if (Password.equals(Checkpassword)) {
+                            System.out.println("Password Set Successfully");
+                            break;
+                        }
+                        else{
                             System.out.println("Password Mismatched");
+                            continue;
                         }
                     }
                 }
