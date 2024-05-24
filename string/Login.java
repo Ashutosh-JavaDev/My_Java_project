@@ -66,7 +66,11 @@ class loginPage {
     }
     public boolean containSymbol(String str){
         boolean result=false;
-        
+        for(char c:str.toCharArray()){
+            if(!Character.isLetterOrDigit(c)){
+                return true;
+            }
+        }
         return false;
     }
 }
