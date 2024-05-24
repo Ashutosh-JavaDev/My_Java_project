@@ -64,8 +64,10 @@ class loginPage {
         return false;
 
     }
-    public void containSymbol(String str){
+    public boolean containSymbol(String str){
+        boolean result=false;
         
+        return false;
     }
 }
 
