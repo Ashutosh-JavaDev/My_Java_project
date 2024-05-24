@@ -26,6 +26,9 @@ class loginPage {
             } else if (Character.isLowerCase(c)) {
                 hasLower = true;
             }
+            if (hasLower && hasUpper) {
+                return true;
+            }
         }
         return false;
     }
