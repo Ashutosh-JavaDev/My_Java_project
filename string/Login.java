@@ -17,19 +17,16 @@ class loginPage {
                         if (Password.equals(Checkpassword)) {
                             System.out.println("Password Set Successfully");
                             break;
-                        }
-                        else{
+                        } else {
                             System.out.println("Password Mismatched");
                             continue;
                         }
                     }
-                }
-                else{
+                } else {
                     System.out.println("Password Must contains one UpperCase and One LowerCase Character");
                 }
                 break;
-            } 
-            else {
+            } else {
                 System.out.println("Password must be Have contains 8 to 17 Letters");
                 continue;
             }
@@ -55,5 +52,7 @@ class loginPage {
 }
 
 public class Login {
-
+    public static void main(String[]args){
+        loginPage ob=new loginPage();
+    }
 }
