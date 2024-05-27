@@ -7,7 +7,7 @@ class ScanningClass {
 
     public void scan() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the value you wants to search");
+        System.out.println("Enter the value:");
         value = sc.nextInt();
     }
 
@@ -28,6 +28,12 @@ class Search extends ScanningClass {
         }
         return pos;
 
+    }
+}
+class Insert extends ScanningClass{
+    public void Insert(int arr[],int size){
+        scan();
+        
     }
 }
 
