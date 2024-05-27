@@ -39,7 +39,11 @@ class Insert extends ScanningClass {
         }
     }
 }
-
+class delete extends ScanningClass{
+    public void Delete(int arr[],int size){
+        
+    }
+}
 public class SID {
 
 }
