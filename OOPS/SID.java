@@ -59,9 +59,9 @@ public class SID {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
-       int res= ob.search(arr, size);
-       System.out.print("Position: "+res);
-       del.Delete(arr, size);
+        int res = ob.search(arr, size);
+        System.out.print("Position: " + res);
+        del.Delete(arr, size);
 
     }
 }
