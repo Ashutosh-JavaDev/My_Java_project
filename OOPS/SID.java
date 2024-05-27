@@ -10,7 +10,8 @@ class ScanningClass {
         System.out.println("Enter the value you wants to search");
         value = sc.nextInt();
     }
-    public int getvlaue(){
+
+    public int getvlaue() {
         return value;
     }
 }
@@ -18,7 +19,7 @@ class ScanningClass {
 class Search extends ScanningClass {
     public int search(int arr[], int size) {
         scan();
-        int valuetoget=getvlaue();
+        int valuetoget = getvlaue();
         int pos = -1;
         for (int i = 0; i < size; i++) {
             if (arr[i] == valuetoget) {
