@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 class Search {
-    public int position(int arr[], int size) {
+    public int search(int arr[], int size) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value you wants to search");
         int value = sc.nextInt();
