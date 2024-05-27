@@ -7,9 +7,12 @@ class Search{
         target=sc.nextInt();
         int pos=0;
         for(int i=0;i<size;i++){
-
+            if(arr[i]==target){
+                pos=i;
+            }
         }
         return pos;
+
     }
 }
 public class SID {
