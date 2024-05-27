@@ -34,7 +34,6 @@ class Search extends ScanningClass {
 class Insert extends ScanningClass {
     public void Insert(int arr[], int size) {
         scan();
-        arr = new int[size + 1];
         for (int i = 0; i < size; i++) {
 
         }
