@@ -52,6 +52,9 @@ public class SID {
     public static void main(String[] args) {
         delete del=new delete();
         Search ob=new Search();
-
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the size of the Array");
+        int size=sc.nextInt();
+        int arr[]=new int[size];
     }
 }
