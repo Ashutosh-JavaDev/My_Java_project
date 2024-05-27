@@ -31,14 +31,6 @@ class Search extends ScanningClass {
     }
 }
 
-// class Insert extends ScanningClass {
-// public void Insert(int arr[], int size) {
-// scan();
-// for (int i = 0; i < size; i++) {
-
-// }
-// }
-// }
 
 class delete extends ScanningClass {
     public void Delete(int arr[], int size) {
@@ -58,6 +50,8 @@ class delete extends ScanningClass {
 
 public class SID {
     public static void main(String[] args) {
+        delete del=new delete();
+        Search ob=new Search();
 
     }
 }
