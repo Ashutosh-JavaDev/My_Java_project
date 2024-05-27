@@ -31,7 +31,6 @@ class Search extends ScanningClass {
     }
 }
 
-
 class delete extends ScanningClass {
     public void Delete(int arr[], int size) {
         scan();
@@ -50,11 +49,16 @@ class delete extends ScanningClass {
 
 public class SID {
     public static void main(String[] args) {
-        delete del=new delete();
-        Search ob=new Search();
-        Scanner sc=new Scanner(System.in);
+        delete del = new delete();
+        Search ob = new Search();
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the Array");
-        int size=sc.nextInt();
-        int arr[]=new int[size];
+        int size = sc.nextInt();
+        int arr[] = new int[size];
+        System.out.println("Enter the value in the Array");
+        for (int i = 0; i < size; i++) {
+            arr[i] = sc.nextInt();
+        }
+
     }
 }
