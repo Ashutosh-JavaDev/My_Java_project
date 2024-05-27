@@ -39,12 +39,19 @@ class Insert extends ScanningClass {
         }
     }
 }
-class delete extends ScanningClass{
-    public void Delete(int arr[],int size){
+
+class delete extends ScanningClass {
+    public void Delete(int arr[], int size) {
         scan();
-        int valuetodelete=getvlaue();
+        int valuetodelete = getvlaue();
+        for (int i = 0; i < size; i++) {
+            if (arr[i] == valuetodelete) {
+                int temp = arr[i];
+            }
+        }
     }
 }
+
 public class SID {
 
 }
