@@ -3,21 +3,25 @@
 import java.util.Scanner;
 
 class ScanningClass {
+    private int value;
+
     public void scan() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value you wants to search");
-        int value = sc.nextInt();
+        value = sc.nextInt();
+    }
+    public int getvlaue(){
+        return value;
     }
 }
 
-class Search {
+class Search extends ScanningClass {
     public int search(int arr[], int size) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the value you wants to search");
-        int value = sc.nextInt();
-        int pos = 0;
+        scan();
+        int valuetoget=getvlaue();
+        int pos = -1;
         for (int i = 0; i < size; i++) {
-            if (arr[i] == value) {
+            if (arr[i] == valuetoget) {
                 pos = i;
             }
         }
