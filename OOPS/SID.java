@@ -61,6 +61,7 @@ public class SID {
         }
         int res = ob.search(arr, size);
         System.out.print("Position: " + res);
+        System.out.println();
         del.Delete(arr, size);
 
     }
