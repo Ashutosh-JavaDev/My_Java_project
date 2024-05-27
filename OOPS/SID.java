@@ -2,6 +2,14 @@
 //WAP to Search Insert and Delete in java.
 import java.util.Scanner;
 
+class ScanningClass {
+    public void scan() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value you wants to search");
+        int value = sc.nextInt();
+    }
+}
+
 class Search {
     public int search(int arr[], int size) {
         Scanner sc = new Scanner(System.in);
