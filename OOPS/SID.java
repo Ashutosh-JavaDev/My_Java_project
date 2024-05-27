@@ -31,14 +31,14 @@ class Search extends ScanningClass {
     }
 }
 
-class Insert extends ScanningClass {
-    public void Insert(int arr[], int size) {
-        scan();
-        for (int i = 0; i < size; i++) {
+// class Insert extends ScanningClass {
+// public void Insert(int arr[], int size) {
+// scan();
+// for (int i = 0; i < size; i++) {
 
-        }
-    }
-}
+// }
+// }
+// }
 
 class delete extends ScanningClass {
     public void Delete(int arr[], int size) {
@@ -50,12 +50,14 @@ class delete extends ScanningClass {
             }
         }
         System.out.println("Data After Deleted");
-        for(int i=0;i<size-1;i++){
-            System.out.print(arr[i]+" ");
+        for (int i = 0; i < size - 1; i++) {
+            System.out.print(arr[i] + " ");
         }
     }
 }
 
 public class SID {
+    public static void main(String[] args) {
 
+    }
 }
