@@ -49,6 +49,10 @@ class delete extends ScanningClass {
                 int temp = arr[i];
             }
         }
+        System.out.println("Data After Deleted");
+        for(int i=0;i<size-1;i++){
+            System.out.print(arr[i]+" ");
+        }
     }
 }
 
