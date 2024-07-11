@@ -9,6 +9,10 @@ class Animal{
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Name of the Animal");
         name=sc.nextLine();
+        System.out.println("Enter the Gender");
+        Gender=sc.nextLine();
+        System.out.println("Enter Age");
+        age=sc.nextInt();
     }
 }
 public class Project {
