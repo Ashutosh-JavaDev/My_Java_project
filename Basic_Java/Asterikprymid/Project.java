@@ -13,6 +13,8 @@ class Animal{
         Gender=sc.nextLine();
         System.out.println("Enter Age");
         age=sc.nextInt();
+        System.out.println("Name: "+name+"Gender "+Gender+" Age "+age);
+        
     }
 }
 public class Project {
