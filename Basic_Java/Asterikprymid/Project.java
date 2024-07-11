@@ -11,5 +11,6 @@ public class Project {
        for(int i=1;i<=number;i++){
         sum+=i;
        }
+       System.out.println("The Sum of "+number+" number is "+sum);
     }
 }
