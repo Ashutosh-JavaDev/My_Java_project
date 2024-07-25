@@ -3,19 +3,20 @@ import java.util.Scanner;
 class mimMax {
     int max = 0, min = 0;
 
-    public int valuereturn(int arr[],int size) {
+    public void valuereturn(int arr[],int size) {
         for (int i = 0; i < size; i++) {
             for (int j = i + 1; j < size; j++) {
                 if (arr[i] > arr[j]) {
                     max = arr[i];
-                    return max;
-                } else if (arr[i] < arr[j]) {
+                   
+                }  if (arr[i] < arr[j]) {
                     min = arr[i];
-                    return min;
+                    
                 }
             }
         }
-        return max;
+        System.out.println("Max : "+max);
+        System.out.println("Min : "+min);
 
     }
 }
@@ -32,5 +33,6 @@ public class MaximunMinimumArray {
             arr[i] = sc.nextInt();
         }
         int result=ob.valuereturn(arr,size);
+        System.out.println("Result max: ");
     }
 }
