@@ -32,7 +32,6 @@ public class MaximunMinimumArray {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
-        int result=ob.valuereturn(arr,size);
-        System.out.println("Result max: ");
+         ob.valuereturn(arr,size);
     }
 }
