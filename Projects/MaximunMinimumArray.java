@@ -1,4 +1,7 @@
 import java.util.Scanner;
-public class MaximunMinimumArray {
-    
+
+class mimMax{
+    int size;
+}
+public class MaximunMinimumArray {   
 }
