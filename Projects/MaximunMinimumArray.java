@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 class mimMax {
-    int size, max = 0, min = 0;
+    int max = 0, min = 0;
 
-    public int valuereturn(int arr[]) {
+    public int valuereturn(int arr[],int size) {
         for (int i = 0; i < size; i++) {
             for (int j = i + 1; j < size; j++) {
                 if (arr[i] > arr[j]) {
@@ -22,6 +22,7 @@ class mimMax {
 
 public class MaximunMinimumArray {
     public static void main(String[] args) {
+        mimMax ob=new mimMax();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Size of the Array");
         int size = sc.nextInt();
@@ -30,5 +31,6 @@ public class MaximunMinimumArray {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
+        int result=ob.valuereturn(arr,size);
     }
 }
