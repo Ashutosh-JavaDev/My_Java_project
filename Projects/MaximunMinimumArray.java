@@ -1,20 +1,21 @@
 import java.util.Scanner;
 
 class mimMax {
-    int max = 0, min = 0;
 
     public void valuereturn(int arr[], int size) {
+        int max = arr[0];
+        int min = arr[0];
         for (int i = 0; i < size; i++) {
-            for (int j = i + 1; j < size; j++) {
-                if (arr[i] > arr[j]) {
-                    max = arr[i];
 
-                }
-                if (arr[i] < arr[j]) {
-                    min = arr[i];
+            if (arr[i] > max) {
+                max = arr[i];
 
-                }
             }
+            if (arr[i] < min) {
+                min = arr[i];
+
+            }
+
         }
         System.out.println("Max : " + max);
         System.out.println("Min : " + min);
