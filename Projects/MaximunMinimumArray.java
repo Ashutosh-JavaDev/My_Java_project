@@ -5,8 +5,11 @@ class mimMax{
     public void valuereturn(int arr[]){
         for(int i=0;i<size;i++){
             for(int j=i+1;j<size;j++){
-                if(arr[i]>max){
-                    
+                if(arr[i]>arr[j]){
+                    max=arr[i];
+                }
+                else if(arr[i]<arr[j]){
+                    min=arr[i];
                 }
             }
         }
