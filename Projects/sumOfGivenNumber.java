@@ -4,5 +4,6 @@ public class sumOfGivenNumber {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the size of the Array");
         int size=sc.nextInt();
+        int arr[]=new int[size];
     }
 }
