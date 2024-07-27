@@ -14,5 +14,6 @@ public class sumOfGivenNumber {
         for(int i=0;i<size;i++){
             sum+=i;
         }
+        System.out.println("Sum of "+size+" Number is :"+sum);
     }
 }
