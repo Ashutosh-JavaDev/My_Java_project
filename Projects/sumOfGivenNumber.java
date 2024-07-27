@@ -12,7 +12,7 @@ public class sumOfGivenNumber {
         }
         int sum=0;
         for(int i=0;i<size;i++){
-            sum+=i;
+            sum+=arr[i];
         }
         System.out.println("Sum of "+size+" Number is :"+sum);
     }
