@@ -1,15 +1,16 @@
 import java.util.Scanner;
 
-class PrimeNumber{
+class PrimeNumber {
     int number;
-    public void number(){
-        
+
+    public void number() {
+
     }
 }
 
 public class Prime {
-    public static void main(String [] args){
-        Scanner sc=new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
     }
 }
