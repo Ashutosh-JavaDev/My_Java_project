@@ -4,7 +4,7 @@ class PrimeNumber {
     int number;
 
     public void number() {
-
+        
     }
 }
 
