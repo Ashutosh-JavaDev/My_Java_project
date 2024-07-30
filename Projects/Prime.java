@@ -4,6 +4,9 @@ class PrimeNumber {
     int num;
 
     public void number() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter The Number");
+         num=sc.nextInt();
         int count = 0;
         for (int i = 1; i < num; i++) {
             if(num%i==0){
@@ -21,7 +24,6 @@ class PrimeNumber {
 
 public class Prime {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         PrimeNumber ob=new PrimeNumber();
         ob.number();
     }
