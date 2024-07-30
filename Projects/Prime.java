@@ -1,12 +1,14 @@
 import java.util.Scanner;
 
 class PrimeNumber {
-    int number;
+    int num;
 
     public void number() {
         int count = 0;
-        for (int i = 1; i < number; i++) {
+        for (int i = 1; i < num; i++) {
+            if(num%i){
 
+            }
         }
     }
 }
