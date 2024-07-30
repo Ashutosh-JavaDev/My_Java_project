@@ -10,6 +10,9 @@ class PrimeNumber {
                 count++;
             }
         }
+        if(count==2){
+            
+        }
     }
 }
 
