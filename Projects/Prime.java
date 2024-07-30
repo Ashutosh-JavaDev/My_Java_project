@@ -11,7 +11,10 @@ class PrimeNumber {
             }
         }
         if(count==2){
-            
+            System.out.println("Number is Prime");
+        }
+        else{
+            System.out.println("Number is not Prime");
         }
     }
 }
