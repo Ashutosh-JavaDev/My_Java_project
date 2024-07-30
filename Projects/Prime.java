@@ -4,10 +4,10 @@ class PrimeNumber {
     int number;
 
     public void number() {
-        int count=0;
-       for(int i=1;i<number;i++){
-        
-       }
+        int count = 0;
+        for (int i = 1; i < number; i++) {
+
+        }
     }
 }
 
