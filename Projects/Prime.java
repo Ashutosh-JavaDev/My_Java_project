@@ -5,9 +5,9 @@ class PrimeNumber {
 
     public void number() {
         int count=0;
-        if(number % 2 ==0){
-
-        }
+       for(int i=1;i<number;i++){
+        
+       }
     }
 }
 
