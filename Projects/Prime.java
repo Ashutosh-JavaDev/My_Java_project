@@ -4,7 +4,10 @@ class PrimeNumber {
     int number;
 
     public void number() {
-        
+        int count=0;
+        if(number % 2 ==0){
+
+        }
     }
 }
 
