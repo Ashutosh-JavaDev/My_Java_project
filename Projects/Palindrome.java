@@ -4,9 +4,15 @@ class palindrome {
     int number;
 
     public void num() {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Number");
-        number=sc.nextInt();
+        number = sc.nextInt();
+        int Number=number;
+        while(Number!=0){
+            int d=Number%10*10;
+            int r=d*10+10;
+            Number=Number/10;
+        }
     }
 }
 
