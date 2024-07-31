@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class palindrome {
+class palin {
     int number;
 
     public void num() {
@@ -25,7 +25,7 @@ class palindrome {
 
 public class pDrome {
     public static void main(String[] args) {
-        palindrome ob=new palindrome();
+        palin ob=new palin();
         ob.num();
 
     }
