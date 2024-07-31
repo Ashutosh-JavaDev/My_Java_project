@@ -14,7 +14,7 @@ class palin {
             r=r*10+d;
             Number=Number/10;
         }
-        if(Number==number){
+        if(r==number){
             System.out.println("Number is Palindrome");
         }
         else{
