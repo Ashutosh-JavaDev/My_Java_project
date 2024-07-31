@@ -1,12 +1,15 @@
 import java.util.Scanner;
-class palindrome{
+
+class palindrome {
     int number;
-    public void num(){
-        
+
+    public void num() {
+
     }
 }
+
 public class Palindrome {
-    public static void  main(String[]args){
+    public static void main(String[] args) {
 
     }
 }
