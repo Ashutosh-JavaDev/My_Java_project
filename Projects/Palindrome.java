@@ -5,6 +5,8 @@ class palindrome {
 
     public void num() {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the Number");
+        number=sc.nextInt();
     }
 }
 
