@@ -13,6 +13,9 @@ class palindrome {
             int r=d*10+10;
             Number=Number/10;
         }
+        if(Number==number){
+            System.out.println("Number is Palindrome");
+        }
     }
 }
 
