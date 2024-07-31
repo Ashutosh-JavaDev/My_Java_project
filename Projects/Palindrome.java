@@ -16,6 +16,9 @@ class palindrome {
         if(Number==number){
             System.out.println("Number is Palindrome");
         }
+        else{
+            System.out.println("Number is Not  Palindrome");
+        }
     }
 }
 
