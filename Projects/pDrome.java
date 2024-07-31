@@ -23,7 +23,7 @@ class palindrome {
     }
 }
 
-public class Palindrome {
+public class pDrome {
     public static void main(String[] args) {
         palindrome ob=new palindrome();
         ob.num();
