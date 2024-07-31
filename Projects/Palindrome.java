@@ -4,7 +4,7 @@ class palindrome {
     int number;
 
     public void num() {
-
+        Scanner sc=new Scanner(System.in);
     }
 }
 
