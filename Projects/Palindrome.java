@@ -24,6 +24,8 @@ class palindrome {
 
 public class Palindrome {
     public static void main(String[] args) {
+        palindrome ob=new palindrome();
+        ob.num();
 
     }
 }
