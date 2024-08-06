@@ -10,7 +10,8 @@ public class FindDuplicates {
     public void Duplicates() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Size of the Array");
-        size=sc.nextInt();
+        size = sc.nextInt();
+        arr=new int[size];
     }
 
     public static void main(String[] args) {
