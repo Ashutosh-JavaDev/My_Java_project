@@ -21,7 +21,7 @@ public class FindDuplicates {
             for (int j = i + 1; j < size; j++) {
                 if (arr[i] == arr[j]) {
                     count++;
-                    System.out.println("Duplicates: "+arr[j]+" ");
+                    System.out.println("Duplicates: "+arr[j]);
                 }
             }
         }
