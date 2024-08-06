@@ -8,7 +8,7 @@ public class FindDuplicates {
     }
 
     public void Duplicates() {
-
+        Scanner sc=new Scanner(System.in);
     }
 
     public static void main(String[] args) {
