@@ -12,6 +12,10 @@ public class FindDuplicates {
         System.out.println("Enter the Size of the Array");
         size = sc.nextInt();
         arr = new int[size];
+        System.out.println("Enter the Value in Array");
+        for(int i=0;i<size;i++){
+            arr[i]=sc.nextInt();
+        }
     }
 
     public static void main(String[] args) {
