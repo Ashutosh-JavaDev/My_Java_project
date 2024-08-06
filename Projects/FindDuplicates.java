@@ -16,14 +16,16 @@ public class FindDuplicates {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
-        int count=0;
+        int count = 0;
         for (int i = 0; i < size; i++) {
             for (int j = i + 1; j < size; j++) {
-                if(arr[i]==arr[j]){
+                if (arr[i] == arr[j]) {
                     count++;
+                    System.out.println("Duplicates: "+arr[j]);
                 }
             }
         }
+        System.out.println("Number of Duplicates: "+count);
     }
 
     public static void main(String[] args) {
